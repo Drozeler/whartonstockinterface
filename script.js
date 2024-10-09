@@ -1,15 +1,5 @@
-let stockData = []; // This will hold the stock data
-
-// Fetch the stock data from the JSON file
-fetch('stocks.json')
-    .then(response => response.json())
-    .then(data => {
-        stockData = data;
-    })
-    .catch(error => console.error('Error loading stock data:', error));
-
-// Filter stocks function
 function filterStocks() {
+    console.log("Filter button clicked."); // Debugging statement
     // Get filter values
     const companyName = document.getElementById("company-name").value.toLowerCase();
     const ticker = document.getElementById("ticker").value.toLowerCase();
@@ -23,27 +13,31 @@ function filterStocks() {
     const tableBody = document.querySelector("#stockTable tbody");
     tableBody.innerHTML = ""; // Clear existing rows
 
+    // Log the stock data being filtered
+    console.log("Filtering stock data:", stockData);
+
     // Filter stock data
     stockData.forEach((row, index) => {
+        console.log("Processing row:", row); // Debugging statement
         if (
-            (companyName === '' || row.company_name.toLowerCase().includes(companyName)) &&
-            (ticker === '' || row.ticker.toLowerCase().includes(ticker)) &&
-            (exchange === '' || row.exchange.toLowerCase().includes(exchange)) &&
-            (gicsSector === '' || row.gics_sector.toLowerCase().includes(gicsSector)) &&
-            (gicsIndustryGroup === '' || row.gics_industry_group.toLowerCase().includes(gicsIndustryGroup)) &&
-            (gicsIndustry === '' || row.gics_industry.toLowerCase().includes(gicsIndustry)) &&
-            (gicsSubIndustry === '' || row.gics_sub_industry.toLowerCase().includes(gicsSubIndustry))
+            (companyName === '' || row["Company Name"].toLowerCase().includes(companyName)) &&
+            (ticker === '' || row["Ticker"].toLowerCase().includes(ticker)) &&
+            (exchange === '' || row["Exchange"].toLowerCase().includes(exchange)) &&
+            (gicsSector === '' || row["GICS Sector"].toLowerCase().includes(gicsSector)) &&
+            (gicsIndustryGroup === '' || row["GICS Industry Group"].toLowerCase().includes(gicsIndustryGroup)) &&
+            (gicsIndustry === '' || row["GICS Industry"].toLowerCase().includes(gicsIndustry)) &&
+            (gicsSubIndustry === '' || row["GICS Sub-Industry"].toLowerCase().includes(gicsSubIndustry))
         ) {
             const newRow = document.createElement("tr");
             newRow.innerHTML = `
                 <td>${index + 1}</td>
-                <td>${row.company_name}</td>
-                <td>${row.ticker}</td>
-                <td>${row.exchange}</td>
-                <td>${row.gics_sector}</td>
-                <td>${row.gics_industry_group}</td>
-                <td>${row.gics_industry}</td>
-                <td>${row.gics_sub_industry}</td>
+                <td>${row["Company Name"]}</td>
+                <td>${row["Ticker"]}</td>
+                <td>${row["Exchange"]}</td>
+                <td>${row["GICS Sector"]}</td>
+                <td>${row["GICS Industry Group"]}</td>
+                <td>${row["GICS Industry"]}</td>
+                <td>${row["GICS Sub-Industry"]}</td>
             `;
             tableBody.appendChild(newRow);
         }
