@@ -25,6 +25,9 @@ function filterStocks() {
 
     // Filter stock data
     stockData.forEach((row, index) => {
+        // Log the row for debugging
+        console.log(row);
+
         if (
             (companyName === '' || row["Company Name"].toLowerCase().includes(companyName)) &&
             (ticker === '' || row.Ticker.toLowerCase().includes(ticker)) &&
