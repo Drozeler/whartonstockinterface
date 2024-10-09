@@ -82,9 +82,12 @@ function filterStocks() {
 }
 
 function downloadCSV() {
-    const filename = document.getElementById('filename').value || 'filtered_stocks'; // Default name if empty
+    // Get the filename from the input, defaulting to 'filtered_stocks' if not provided
+    const filename = document.getElementById('filename').value.trim() || 'filtered_stocks'; 
     const rows = document.querySelectorAll("#stockTable tbody tr");
-    console.log("Rows to download:", rows.length); // Check how many rows are selected
+    
+    // Log the number of rows to be downloaded
+    console.log("Rows to download:", rows.length);
 
     // Prepare CSV data
     const csvData = [];
@@ -99,17 +102,15 @@ function downloadCSV() {
         csvData.push(rowData.join(',')); // Add row data to CSV
     });
 
-    // Check CSV data before creating Blob
-    console.log("CSV Data:", csvData);
-
     // Create a Blob and download it
     const blob = new Blob([csvData.join('\n')], { type: 'text/csv' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `${filename}.csv`; 
+    a.download = `${filename}.csv`; // Use the filename from the input
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
     URL.revokeObjectURL(url); // Clean up
 }
+
