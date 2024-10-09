@@ -14,11 +14,10 @@ fetch('stocks.json')
     })
     .catch(error => console.error('Error loading stock data:', error));
 
-
 // Filter stocks function
 function filterStocks() {
     // Get filter values
-   const companyName = document.getElementById("company-name").value.toLowerCase();
+    const companyName = document.getElementById("company-name").value.toLowerCase();
     const ticker = document.getElementById("ticker").value.toLowerCase();
     const exchange = document.getElementById("exchange").value.toLowerCase();
     const gicsSector = document.getElementById("gics-sector").value.toLowerCase();
@@ -29,6 +28,9 @@ function filterStocks() {
     // Get table body
     const tableBody = document.querySelector("#stockTable tbody");
     tableBody.innerHTML = ""; // Clear existing rows
+
+    console.log("Filtering stocks...");
+    console.log("Total stocks before filtering:", stockData.length); // Log total stocks
 
     // Filter stock data
     stockData.forEach((row, index) => {
@@ -52,8 +54,9 @@ function filterStocks() {
             (gicsIndustry === '' || gicsIndustryMatch) &&
             (gicsSubIndustry === '' || gicsSubIndustryMatch)
         ) {
+            console.log("Match found:", row); // Log matches
             const newRow = document.createElement("tr");
-            newRow.innerHTML = 
+            newRow.innerHTML = `
                 <td>${index + 1}</td>
                 <td>${row["Company Name"]}</td>
                 <td>${row.Ticker}</td>
@@ -62,10 +65,12 @@ function filterStocks() {
                 <td>${row["GICS Industry Group"]}</td>
                 <td>${row["GICS Industry"]}</td>
                 <td>${row["GICS Sub-Industry"]}</td>
-            ;
+            `;
             tableBody.appendChild(newRow);
         }
     });
+
+    console.log("Filtered stocks count:", tableBody.children.length); // Log count of rows added
 }
 
 function downloadCSV() {
