@@ -14,10 +14,11 @@ fetch('stocks.json')
     })
     .catch(error => console.error('Error loading stock data:', error));
 
+
 // Filter stocks function
 function filterStocks() {
     // Get filter values
-    const companyName = document.getElementById("company-name").value.toLowerCase();
+   const companyName = document.getElementById("company-name").value.toLowerCase();
     const ticker = document.getElementById("ticker").value.toLowerCase();
     const exchange = document.getElementById("exchange").value.toLowerCase();
     const gicsSector = document.getElementById("gics-sector").value.toLowerCase();
@@ -52,7 +53,7 @@ function filterStocks() {
             (gicsSubIndustry === '' || gicsSubIndustryMatch)
         ) {
             const newRow = document.createElement("tr");
-            newRow.innerHTML = `
+            newRow.innerHTML = 
                 <td>${index + 1}</td>
                 <td>${row["Company Name"]}</td>
                 <td>${row.Ticker}</td>
@@ -61,7 +62,7 @@ function filterStocks() {
                 <td>${row["GICS Industry Group"]}</td>
                 <td>${row["GICS Industry"]}</td>
                 <td>${row["GICS Sub-Industry"]}</td>
-            `;
+            ;
             tableBody.appendChild(newRow);
         }
     });
@@ -76,7 +77,7 @@ function downloadCSV() {
     const headers = ["Row", "Company Name", "Ticker", "Exchange", "GICS Sector", "GICS Industry Group", "GICS Industry", "GICS Sub-Industry"];
     csvData.push(headers.join(',')); // Add headers to CSV
 
-    rows.forEach((row) => {
+    rows.forEach((row, index) => {
         const rowData = [];
         row.querySelectorAll("td").forEach(cell => {
             rowData.push(cell.innerText);
