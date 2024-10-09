@@ -1,10 +1,14 @@
-const stockData = [
-    // Example stock data
-    ["Company A", "A", "NYSE", "Sector A", "Group A", "Industry A", "Sub-Industry A"],
-    ["Company B", "B", "NASDAQ", "Sector B", "Group B", "Industry B", "Sub-Industry B"],
-    // Add more stock data as needed
-];
+let stockData = []; // This will hold the stock data
 
+// Fetch the stock data from the JSON file
+fetch('stocks.json')
+    .then(response => response.json())
+    .then(data => {
+        stockData = data;
+    })
+    .catch(error => console.error('Error loading stock data:', error));
+
+// Filter stocks function
 function filterStocks() {
     // Get filter values
     const companyName = document.getElementById("company-name").value.toLowerCase();
@@ -22,24 +26,24 @@ function filterStocks() {
     // Filter stock data
     stockData.forEach((row, index) => {
         if (
-            (companyName === '' || row[0].toLowerCase().includes(companyName)) &&
-            (ticker === '' || row[1].toLowerCase().includes(ticker)) &&
-            (exchange === '' || row[2].toLowerCase().includes(exchange)) &&
-            (gicsSector === '' || row[3].toLowerCase().includes(gicsSector)) &&
-            (gicsIndustryGroup === '' || row[4].toLowerCase().includes(gicsIndustryGroup)) &&
-            (gicsIndustry === '' || row[5].toLowerCase().includes(gicsIndustry)) &&
-            (gicsSubIndustry === '' || row[6].toLowerCase().includes(gicsSubIndustry))
+            (companyName === '' || row.company_name.toLowerCase().includes(companyName)) &&
+            (ticker === '' || row.ticker.toLowerCase().includes(ticker)) &&
+            (exchange === '' || row.exchange.toLowerCase().includes(exchange)) &&
+            (gicsSector === '' || row.gics_sector.toLowerCase().includes(gicsSector)) &&
+            (gicsIndustryGroup === '' || row.gics_industry_group.toLowerCase().includes(gicsIndustryGroup)) &&
+            (gicsIndustry === '' || row.gics_industry.toLowerCase().includes(gicsIndustry)) &&
+            (gicsSubIndustry === '' || row.gics_sub_industry.toLowerCase().includes(gicsSubIndustry))
         ) {
             const newRow = document.createElement("tr");
             newRow.innerHTML = `
                 <td>${index + 1}</td>
-                <td>${row[0]}</td>
-                <td>${row[1]}</td>
-                <td>${row[2]}</td>
-                <td>${row[3]}</td>
-                <td>${row[4]}</td>
-                <td>${row[5]}</td>
-                <td>${row[6]}</td>
+                <td>${row.company_name}</td>
+                <td>${row.ticker}</td>
+                <td>${row.exchange}</td>
+                <td>${row.gics_sector}</td>
+                <td>${row.gics_industry_group}</td>
+                <td>${row.gics_industry}</td>
+                <td>${row.gics_sub_industry}</td>
             `;
             tableBody.appendChild(newRow);
         }
