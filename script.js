@@ -16,6 +16,7 @@ fetch('stocks.json')
 
 // Filter stocks function
 function filterStocks() {
+    console.log("filterStocks function called");
     // Get filter values
     const companyName = document.getElementById("company-name").value.toLowerCase();
     const ticker = document.getElementById("ticker").value.toLowerCase();
