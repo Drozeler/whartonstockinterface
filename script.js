@@ -14,11 +14,10 @@ fetch('stocks.json')
     })
     .catch(error => console.error('Error loading stock data:', error));
 
-
 // Filter stocks function
 function filterStocks() {
     // Get filter values
-   const companyName = document.getElementById("company-name").value.toLowerCase();
+    const companyName = document.getElementById("company-name").value.toLowerCase();
     const ticker = document.getElementById("ticker").value.toLowerCase();
     const exchange = document.getElementById("exchange").value.toLowerCase();
     const gicsSector = document.getElementById("gics-sector").value.toLowerCase();
@@ -77,7 +76,7 @@ function downloadCSV() {
     const headers = ["Row", "Company Name", "Ticker", "Exchange", "GICS Sector", "GICS Industry Group", "GICS Industry", "GICS Sub-Industry"];
     csvData.push(headers.join(',')); // Add headers to CSV
 
-    rows.forEach((row, index) => {
+    rows.forEach((row) => {
         const rowData = [];
         row.querySelectorAll("td").forEach(cell => {
             rowData.push(cell.innerText);
@@ -96,4 +95,3 @@ function downloadCSV() {
     document.body.removeChild(a);
     URL.revokeObjectURL(url); // Clean up
 }
-
