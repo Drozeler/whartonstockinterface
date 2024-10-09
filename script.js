@@ -95,3 +95,4 @@ function downloadCSV() {
     document.body.removeChild(a);
     URL.revokeObjectURL(url); // Clean up
 }
+console.log("downloadCSV function:", typeof downloadCSV); // Should log "function"
