@@ -14,6 +14,13 @@ fetch('stocks.json')
     })
     .catch(error => console.error('Error loading stock data:', error));
 
+// Wait until the DOM is fully loaded
+document.addEventListener('DOMContentLoaded', (event) => {
+    // Attach event listeners to buttons
+    document.getElementById('filterBtn').onclick = filterStocks;
+    document.getElementById('downloadBtn').onclick = downloadCSV;
+});
+
 // Filter stocks function
 function filterStocks() {
     console.log("filterStocks function called");
@@ -75,21 +82,24 @@ function filterStocks() {
 }
 
 function downloadCSV() {
-    // Get table body rows
     const rows = document.querySelectorAll("#stockTable tbody tr");
+    console.log("Rows to download:", rows.length); // Check how many rows are selected
 
     // Prepare CSV data
     const csvData = [];
     const headers = ["Row", "Company Name", "Ticker", "Exchange", "GICS Sector", "GICS Industry Group", "GICS Industry", "GICS Sub-Industry"];
     csvData.push(headers.join(',')); // Add headers to CSV
 
-    rows.forEach((row, index) => {
+    rows.forEach((row) => {
         const rowData = [];
         row.querySelectorAll("td").forEach(cell => {
             rowData.push(cell.innerText);
         });
         csvData.push(rowData.join(',')); // Add row data to CSV
     });
+
+    // Check CSV data before creating Blob
+    console.log("CSV Data:", csvData);
 
     // Create a Blob and download it
     const blob = new Blob([csvData.join('\n')], { type: 'text/csv' });
