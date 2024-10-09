@@ -17,6 +17,7 @@ fetch('stocks.json')
 // ... [filterStocks function remains unchanged] ...
 
 function downloadCSV() {
+    alert("Downloading CSV...");
     // Get table body rows
     const rows = document.querySelectorAll("#stockTable tbody tr");
 
