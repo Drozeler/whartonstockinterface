@@ -82,6 +82,7 @@ function filterStocks() {
 }
 
 function downloadCSV() {
+    const filename = document.getElementById('filename').value || 'filtered_stocks'; // Default name if empty
     const rows = document.querySelectorAll("#stockTable tbody tr");
     console.log("Rows to download:", rows.length); // Check how many rows are selected
 
@@ -106,7 +107,7 @@ function downloadCSV() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'filtered_stocks.csv'; // Name of the downloaded file
+    a.download = `${filename}.csv`; 
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
