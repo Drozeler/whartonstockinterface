@@ -1,0 +1,4493 @@
+[
+ {
+   "Company Name": "Ambev SA",
+   "Ticker": "ABEV3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Beverages",
+   "GICS Sub-Industry": "Brewers"
+ },
+ {
+   "Company Name": "B3 SA - Brasil Bolsa Balcao",
+   "Ticker": "B3SA3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Financial Exchanges & Data"
+ },
+ {
+   "Company Name": "Banco do Brasil SA BB Brasil",
+   "Ticker": "BBAS3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "Bank Bradesco SA",
+   "Ticker": "BBDC3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Insurance",
+   "GICS Industry": "Insurance",
+   "GICS Sub-Industry": "Multi-line Insurance"
+ },
+ {
+   "Company Name": "BB Seguridade Participacoes SA",
+   "Ticker": "BBSE3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "Banco BTG Pactual S.A.",
+   "Ticker": "BPAC11",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Diversified Capital Markets"
+ },
+ {
+   "Company Name": "BRF SA",
+   "Ticker": "BRFS3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Food Products",
+   "GICS Sub-Industry": "Packaged Foods & Meats"
+ },
+ {
+   "Company Name": "CCR SA",
+   "Ticker": "CCRO3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Transportation",
+   "GICS Industry": "Transportation Infrastructure",
+   "GICS Sub-Industry": "Highways & Railtracks"
+ },
+ {
+   "Company Name": "CPFL Energia S.A.",
+   "Ticker": "CPFE3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Electric Utilities",
+   "GICS Sub-Industry": "Electric Utilities"
+ },
+ {
+   "Company Name": "Atacadao SA",
+   "Ticker": "CRFB3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Consumer Staples Distribution & Retail",
+   "GICS Industry": "Consumer Staples Distribution & Retail",
+   "GICS Sub-Industry": "Consumer Staples Merchandise Retail"
+ },
+ {
+   "Company Name": "Cosan SA",
+   "Ticker": "CSAN3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Oil & Gas Refining & Marketing"
+ },
+ {
+   "Company Name": "Companhia Siderurgica Nacional",
+   "Ticker": "CSNA3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Metals & Mining",
+   "GICS Sub-Industry": "Steel"
+ },
+ {
+   "Company Name": "ENGIE Brasil Energia SA",
+   "Ticker": "EGIE3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Independent Power and Renewable Electricity Producers",
+   "GICS Sub-Industry": "Renewable Electricity "
+ },
+ {
+   "Company Name": "Embraer SA",
+   "Ticker": "EMBR3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Aerospace & Defense",
+   "GICS Sub-Industry": "Aerospace & Defense"
+ },
+ {
+   "Company Name": "Equatorial Energia SA",
+   "Ticker": "EQTL3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Electric Utilities",
+   "GICS Sub-Industry": "Electric Utilities"
+ },
+ {
+   "Company Name": "Hypera SA",
+   "Ticker": "HYPE3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Pharmaceuticals",
+   "GICS Sub-Industry": "Pharmaceuticals"
+ },
+ {
+   "Company Name": "IRB Brasil Resseguros SA",
+   "Ticker": "IRBR3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Insurance",
+   "GICS Industry": "Insurance",
+   "GICS Sub-Industry": "Reinsurance"
+ },
+ {
+   "Company Name": "JBS SA",
+   "Ticker": "JBSS3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Food Products",
+   "GICS Sub-Industry": "Packaged Foods & Meats"
+ },
+ {
+   "Company Name": "Klabin SA",
+   "Ticker": "KLBN11",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Containers & Packaging",
+   "GICS Sub-Industry": "Paper & Plastic Packaging Products & Materials"
+ },
+ {
+   "Company Name": "Lojas Renner SA",
+   "Ticker": "LREN3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Specialty Retail",
+   "GICS Sub-Industry": "Apparel Retail"
+ },
+ {
+   "Company Name": "M Dias Branco SA Industria e Comercio de Alimentos",
+   "Ticker": "MDIA3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Food Products",
+   "GICS Sub-Industry": "Packaged Foods & Meats"
+ },
+ {
+   "Company Name": "Magazine Luiza SA",
+   "Ticker": "MGLU3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Distributors",
+   "GICS Sub-Industry": "Broadline Retail"
+ },
+ {
+   "Company Name": "Multiplan Empreendimentos Imobiliarios SA",
+   "Ticker": "MULT3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Real Estate",
+   "GICS Industry Group": "Real Estate Management & Development",
+   "GICS Industry": "Real Estate Management & Development",
+   "GICS Sub-Industry": "Real Estate Operating Companies"
+ },
+ {
+   "Company Name": "Natura & Co Holding SA",
+   "Ticker": "NTCO3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Household & Personal Products",
+   "GICS Industry": "Personal Care Products",
+   "GICS Sub-Industry": "Personal Care Products"
+ },
+ {
+   "Company Name": "Petroleo Brasileiro SA Petrobras",
+   "Ticker": "PETR3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Integrated Oil & Gas"
+ },
+ {
+   "Company Name": "Porto Seguro SA",
+   "Ticker": "PSSA3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Insurance",
+   "GICS Industry": "Insurance",
+   "GICS Sub-Industry": "Multi-line Insurance"
+ },
+ {
+   "Company Name": "Raia Drogasil SA",
+   "Ticker": "RADL3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Consumer Staples Distribution & Retail",
+   "GICS Industry": "Consumer Staples Distribution & Retail",
+   "GICS Sub-Industry": "Drug Retail"
+ },
+ {
+   "Company Name": "Rumo SA",
+   "Ticker": "RAIL3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Transportation",
+   "GICS Industry": "Ground Transportation",
+   "GICS Sub-Industry": "Rail Transportation"
+ },
+ {
+   "Company Name": "Localiza Rent A Car SA",
+   "Ticker": "RENT3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Transportation",
+   "GICS Industry": "Ground Transportation",
+   "GICS Sub-Industry": "Passenger Ground Transportation"
+ },
+ {
+   "Company Name": "Banco Santander (Brasil) SA",
+   "Ticker": "SANB11",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "Companhia De Saneamento Basico Do Estado De Sao Paulo",
+   "Ticker": "SBSP3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Water Utilities",
+   "GICS Sub-Industry": "Water Utilities"
+ },
+ {
+   "Company Name": "Suzano SA",
+   "Ticker": "SUZB3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Paper & Forest Products",
+   "GICS Sub-Industry": "Paper Products"
+ },
+ {
+   "Company Name": "Ultrapar Participacoes SA",
+   "Ticker": "UGPA3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Oil & Gas Storage & Transportation"
+ },
+ {
+   "Company Name": "Vale SA",
+   "Ticker": "VALE3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Metals & Mining",
+   "GICS Sub-Industry": "Steel"
+ },
+ {
+   "Company Name": "Weg SA",
+   "Ticker": "WEGE3",
+   "Exchange": "B3 S.A.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Electrical Equipment",
+   "GICS Sub-Industry": "Electrical Components & Equipment"
+ },
+ {
+   "Company Name": "Grupo Bimbo, S.A.B de C.V.",
+   "Ticker": "BIMBOA",
+   "Exchange": "BMV",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Food Products",
+   "GICS Sub-Industry": "Packaged Foods & Meats"
+ },
+ {
+   "Company Name": "Grupo Aeroportuario del Pacifico SAB de CV Class B",
+   "Ticker": "GAPB",
+   "Exchange": "BMV",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Transportation",
+   "GICS Industry": "Transportation Infrastructure",
+   "GICS Sub-Industry": "Airport Services"
+ },
+ {
+   "Company Name": "Power Finance Corporation",
+   "Ticker": "532810",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": " Financial Services",
+   "GICS Sub-Industry": "Specialized Finance"
+ },
+ {
+   "Company Name": "Delta Corp Ltd.",
+   "Ticker": "532848",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Casinos & Gaming"
+ },
+ {
+   "Company Name": "Bata India Ltd",
+   "Ticker": "500043",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Durables & Apparel",
+   "GICS Industry": "Textiles, Apparel & Luxury Goods",
+   "GICS Sub-Industry": "Footwear"
+ },
+ {
+   "Company Name": "Cipla Ltd",
+   "Ticker": "500087",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Pharmaceuticals",
+   "GICS Sub-Industry": "Pharmaceuticals"
+ },
+ {
+   "Company Name": "Bharat Heavy Electricals Ltd",
+   "Ticker": "500103",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Electrical Equipment",
+   "GICS Sub-Industry": "Heavy Electrical Equipment"
+ },
+ {
+   "Company Name": "State Bank of India",
+   "Ticker": "500112",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "Titan Co Ltd",
+   "Ticker": "500114",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Durables & Apparel",
+   "GICS Industry": "Textiles, Apparel & Luxury Goods",
+   "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods"
+ },
+ {
+   "Company Name": "Dr Reddy's Laboratories Ltd",
+   "Ticker": "500124",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Pharmaceuticals",
+   "GICS Sub-Industry": "Pharmaceuticals"
+ },
+ {
+   "Company Name": "HDFC Bank Ltd",
+   "Ticker": "500180",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "Hero MotoCorp Ltd",
+   "Ticker": "500182",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Automobiles & Components",
+   "GICS Industry": "Automobiles",
+   "GICS Sub-Industry": "Motorcycle Manufacturers"
+ },
+ {
+   "Company Name": "Infosys Ltd",
+   "Ticker": "500209",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "IT Services",
+   "GICS Sub-Industry": "IT Consulting & Other Services"
+ },
+ {
+   "Company Name": "Kotak Mahindra Bank Ltd",
+   "Ticker": "500247",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "Max Financial Services Ltd",
+   "Ticker": "500271",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Insurance",
+   "GICS Industry": "Insurance",
+   "GICS Sub-Industry": "Life & Health Insurance"
+ },
+ {
+   "Company Name": "Vedanta Ltd",
+   "Ticker": "500295",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Metals & Mining",
+   "GICS Sub-Industry": "Diversified Metals & Mining"
+ },
+ {
+   "Company Name": "Piramal Enterprises Ltd",
+   "Ticker": "500302",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": " Financial Services",
+   "GICS Sub-Industry": "Specialized Finance"
+ },
+ {
+   "Company Name": "NIIT Ltd",
+   "Ticker": "500304",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Diversified Consumer Services",
+   "GICS Sub-Industry": "Education Services"
+ },
+ {
+   "Company Name": "Oil & Natural Gas Corp Ltd",
+   "Ticker": "500312",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Integrated Oil & Gas"
+ },
+ {
+   "Company Name": "Reliance Industries Ltd",
+   "Ticker": "500325",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Oil & Gas Refining & Marketing"
+ },
+ {
+   "Company Name": "Tata Power Co Ltd",
+   "Ticker": "500400",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Electric Utilities",
+   "GICS Sub-Industry": "Electric Utilities"
+ },
+ {
+   "Company Name": "Hindalco Industries Ltd",
+   "Ticker": "500440",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Metals & Mining",
+   "GICS Sub-Industry": "Aluminum"
+ },
+ {
+   "Company Name": "Tata Steel Ltd",
+   "Ticker": "500470",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Metals & Mining",
+   "GICS Sub-Industry": "Steel"
+ },
+ {
+   "Company Name": "Larsen & Toubro Ltd",
+   "Ticker": "500510",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Construction & Engineering",
+   "GICS Sub-Industry": "Construction & Engineering"
+ },
+ {
+   "Company Name": "Mahindra & Mahindra Ltd",
+   "Ticker": "500520",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Automobiles & Components",
+   "GICS Industry": "Automobiles",
+   "GICS Sub-Industry": "Automobile Manufacturers"
+ },
+ {
+   "Company Name": "Bosch Ltd",
+   "Ticker": "500530",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Automobiles & Components",
+   "GICS Industry": "Automobile Components",
+   "GICS Sub-Industry": "Automotive Parts & Equipment"
+ },
+ {
+   "Company Name": "Tata Motors Ltd",
+   "Ticker": "500570",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Automobiles & Components",
+   "GICS Industry": "Automobiles",
+   "GICS Sub-Industry": "Automobile Manufacturers"
+ },
+ {
+   "Company Name": "Hindustan Unilever Ltd",
+   "Ticker": "500696",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Household & Personal Products",
+   "GICS Industry": "Personal Care Products",
+   "GICS Sub-Industry": "Personal Care Products"
+ },
+ {
+   "Company Name": "Nestle India Ltd",
+   "Ticker": "500790",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Food Products",
+   "GICS Sub-Industry": "Packaged Foods & Meats"
+ },
+ {
+   "Company Name": "Asian Paints Ltd",
+   "Ticker": "500820",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Chemicals",
+   "GICS Sub-Industry": "Specialty Chemicals"
+ },
+ {
+   "Company Name": "ITC Ltd",
+   "Ticker": "500875",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Tobacco",
+   "GICS Sub-Industry": "Tobacco"
+ },
+ {
+   "Company Name": "Wipro Ltd",
+   "Ticker": "507685",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "IT Services",
+   "GICS Sub-Industry": "IT Consulting & Other Services"
+ },
+ {
+   "Company Name": "Berger Paints India Ltd",
+   "Ticker": "509480",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Chemicals",
+   "GICS Sub-Industry": "Commodity Chemicals"
+ },
+ {
+   "Company Name": "Gujarat Industries Power Co Ltd",
+   "Ticker": "517300",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Independent Power and Renewable Electricity Producers",
+   "GICS Sub-Industry": "Independent Power Producers & Energy Traders"
+ },
+ {
+   "Company Name": "Sun Pharmaceuticals Industries Ltd",
+   "Ticker": "524715",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Pharmaceuticals",
+   "GICS Sub-Industry": "Pharmaceuticals"
+ },
+ {
+   "Company Name": "GAIL (India) Ltd",
+   "Ticker": "532155",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Gas Utilities",
+   "GICS Sub-Industry": "Gas Utilities"
+ },
+ {
+   "Company Name": "ICICI Bank Ltd",
+   "Ticker": "532174",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "Axis Bank Ltd",
+   "Ticker": "532215",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "HCL Technologies Ltd",
+   "Ticker": "532281",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "IT Services",
+   "GICS Sub-Industry": "IT Consulting & Other Services"
+ },
+ {
+   "Company Name": "Godrej Consumer Products Ltd",
+   "Ticker": "532424",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Household & Personal Products",
+   "GICS Industry": "Personal Care Products",
+   "GICS Sub-Industry": "Personal Care Products"
+ },
+ {
+   "Company Name": "Bharti Airtel Ltd",
+   "Ticker": "532454",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Telecommunication Services",
+   "GICS Industry": "Wireless Telecommunication Services",
+   "GICS Sub-Industry": "Wireless Telecommunication Services"
+ },
+ {
+   "Company Name": "Granules India Ltd",
+   "Ticker": "532482",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Pharmaceuticals",
+   "GICS Sub-Industry": "Pharmaceuticals"
+ },
+ {
+   "Company Name": "Astra Microwave Products Ltd",
+   "Ticker": "532493",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Technology Hardware & Equipment",
+   "GICS Industry": "Communications Equipment",
+   "GICS Sub-Industry": "Communications Equipment"
+ },
+ {
+   "Company Name": "Maruti Suzuki India Ltd",
+   "Ticker": "532500",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Automobiles & Components",
+   "GICS Industry": "Automobiles",
+   "GICS Sub-Industry": "Automobile Manufacturers"
+ },
+ {
+   "Company Name": "UltraTech Cement Ltd",
+   "Ticker": "532538",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Construction Materials",
+   "GICS Sub-Industry": "Construction Materials"
+ },
+ {
+   "Company Name": "Tata Consultancy Services Ltd",
+   "Ticker": "532540",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "IT Services",
+   "GICS Sub-Industry": "IT Consulting & Other Services"
+ },
+ {
+   "Company Name": "NTPC Ltd",
+   "Ticker": "532555",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Independent Power and Renewable Electricity Producers",
+   "GICS Sub-Industry": "Independent Power Producers & Energy Traders"
+ },
+ {
+   "Company Name": "Yes Bank Ltd",
+   "Ticker": "532648",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "Tech Mahindra Ltd",
+   "Ticker": "532755",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "IT Services",
+   "GICS Sub-Industry": "IT Consulting & Other Services"
+ },
+ {
+   "Company Name": "Power Grid Corp Of India Ltd",
+   "Ticker": "532898",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Electric Utilities",
+   "GICS Sub-Industry": "Electric Utilities"
+ },
+ {
+   "Company Name": "eClerx Services Ltd",
+   "Ticker": "532927",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Commercial  & Professional Services",
+   "GICS Industry": "Professional Services",
+   "GICS Sub-Industry": "Data Processing & Outsourced Services"
+ },
+ {
+   "Company Name": "REC Ltd",
+   "Ticker": "532955",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": " Financial Services",
+   "GICS Sub-Industry": "Specialized Finance"
+ },
+ {
+   "Company Name": "Bajaj Auto Ltd",
+   "Ticker": "532977",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Automobiles & Components",
+   "GICS Industry": "Automobiles",
+   "GICS Sub-Industry": "Motorcycle Manufacturers"
+ },
+ {
+   "Company Name": "Bajaj Finserv Ltd",
+   "Ticker": "532978",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": " Financial Services",
+   "GICS Sub-Industry": "Diversified Financial Services"
+ },
+ {
+   "Company Name": "Jubilant Foodworks Ltd",
+   "Ticker": "533155",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Restaurants"
+ },
+ {
+   "Company Name": "SJVN Ltd",
+   "Ticker": "533206",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Electric Utilities",
+   "GICS Sub-Industry": "Electric Utilities"
+ },
+ {
+   "Company Name": "Coal India Ltd",
+   "Ticker": "533278",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Coal & Consumable Fuels"
+ },
+ {
+   "Company Name": "Just Dial Ltd",
+   "Ticker": "535648",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Media & Entertainment",
+   "GICS Industry": "Interactive Media & Services",
+   "GICS Sub-Industry": "Interactive Media & Services"
+ },
+ {
+   "Company Name": "LTIMindtree",
+   "Ticker": "540005",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "IT Services",
+   "GICS Sub-Industry": "IT Consulting & Other Services"
+ },
+ {
+   "Company Name": "Godrej Agrovet Ltd",
+   "Ticker": "540743",
+   "Exchange": "BSE LTD",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Food Products",
+   "GICS Sub-Industry": "Agricultural Products & Services"
+ },
+ {
+   "Company Name": "ASML Holding NV",
+   "Ticker": "ASML",
+   "Exchange": "Euronext",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Semiconductors & Semiconductor Equipment",
+   "GICS Industry": "Semiconductors & Semiconductor Equipment",
+   "GICS Sub-Industry": "Semiconductor Materials & Equipment"
+ },
+ {
+   "Company Name": "Danone",
+   "Ticker": "BN",
+   "Exchange": "Euronext",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Food Products",
+   "GICS Sub-Industry": "Packaged Foods & Meats"
+ },
+ {
+   "Company Name": "LVMH",
+   "Ticker": "MC",
+   "Exchange": "Euronext",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Durables & Apparel",
+   "GICS Industry": "Textiles, Apparel & Luxury Goods",
+   "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods"
+ },
+ {
+   "Company Name": "L'Oreal",
+   "Ticker": "OR",
+   "Exchange": "Euronext",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Household & Personal Products",
+   "GICS Industry": "Personal Care Products",
+   "GICS Sub-Industry": "Personal Care Products"
+ },
+ {
+   "Company Name": "UCB",
+   "Ticker": "UCB",
+   "Exchange": "Euronext",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Pharmaceuticals",
+   "GICS Sub-Industry": "Pharmaceuticals"
+ },
+ {
+   "Company Name": "Instone Real Estate Group O.N.",
+   "Ticker": "INS",
+   "Exchange": "Frankfurt Stock Exchange",
+   "GICS Sector": "Real Estate",
+   "GICS Industry Group": "Real Estate Management & Development",
+   "GICS Industry": "Real Estate Management & Development",
+   "GICS Sub-Industry": "Real Estate Development"
+ },
+ {
+   "Company Name": "Volkswagen",
+   "Ticker": "VOW",
+   "Exchange": "Frankfurt Stock Exchange",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Automobiles & Components",
+   "GICS Industry": "Automobiles",
+   "GICS Sub-Industry": "Automobile Manufacturers"
+ },
+ {
+   "Company Name": "CITIC Ltd",
+   "Ticker": "00267",
+   "Exchange": "Hong Kong Exchanges And Clearing Ltd",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Industrial Conglomerates",
+   "GICS Sub-Industry": "Industrial Conglomerates"
+ },
+ {
+   "Company Name": "China Mobile Ltd",
+   "Ticker": "00941",
+   "Exchange": "Hong Kong Exchanges And Clearing Ltd",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Telecommunication Services",
+   "GICS Industry": "Wireless Telecommunication Services",
+   "GICS Sub-Industry": "Wireless Telecommunication Services"
+ },
+ {
+   "Company Name": "Aluminum Corporation of China Ltd",
+   "Ticker": "2600",
+   "Exchange": "Hong Kong Exchanges And Clearing Ltd",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Metals & Mining",
+   "GICS Sub-Industry": "Aluminum"
+ },
+ {
+   "Company Name": "Tencent Holdings Ltd",
+   "Ticker": "00700",
+   "Exchange": "Hong Kong Exchanges And Clearing Ltd",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Media & Entertainment",
+   "GICS Industry": "Interactive Media & Services",
+   "GICS Sub-Industry": "Interactive Media & Services"
+ },
+ {
+   "Company Name": "Meituan",
+   "Ticker": "03690",
+   "Exchange": "Hong Kong Exchanges And Clearing Ltd",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Distributors",
+   "GICS Sub-Industry": "Broadline Retail"
+ },
+ {
+   "Company Name": "China Construction Bank Corp",
+   "Ticker": "00939",
+   "Exchange": "Hong Kong Exchanges And Clearing Ltd",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "Ping An Insurance (Group) Co. of China Ltd",
+   "Ticker": "02318",
+   "Exchange": "Hong Kong Exchanges And Clearing Ltd",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Insurance",
+   "GICS Industry": "Insurance",
+   "GICS Sub-Industry": "Life & Health Insurance"
+ },
+ {
+   "Company Name": "China State Construction International Holdings Ltd",
+   "Ticker": "03311",
+   "Exchange": "Hong Kong Exchanges And Clearing Ltd",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Construction & Engineering",
+   "GICS Sub-Industry": "Construction & Engineering"
+ },
+ {
+   "Company Name": "Anhui Conch Cement Co Ltd",
+   "Ticker": "00914",
+   "Exchange": "Hong Kong Exchanges And Clearing Ltd",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Construction Materials",
+   "GICS Sub-Industry": "Construction Materials"
+ },
+ {
+   "Company Name": "Huaneng Power International Inc",
+   "Ticker": "0902",
+   "Exchange": "Hong Kong Exchanges And Clearing Ltd",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Independent Power and Renewable Electricity Producers",
+   "GICS Sub-Industry": "Independent Power Producers & Energy Traders"
+ },
+ {
+   "Company Name": "HD Korea Shipbuilding & Offshore Engineering Company",
+   "Ticker": "009540",
+   "Exchange": "Korea Exchange",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Machinery",
+   "GICS Sub-Industry": "Construction Machinery & Heavy Transportation Equipment"
+ },
+ {
+   "Company Name": "Samsung Electronics Co Ltd",
+   "Ticker": "005930",
+   "Exchange": "Korea Exchange",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Technology Hardware & Equipment",
+   "GICS Industry": "Technology Hardware, Storage & Peripherals",
+   "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals"
+ },
+ {
+   "Company Name": "POSCO Future M Co., Ltd",
+   "Ticker": "003670",
+   "Exchange": "Korea Exchange",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Metals & Mining",
+   "GICS Sub-Industry": "Steel"
+ },
+ {
+   "Company Name": "LG Chem Ltd.",
+   "Ticker": "51910",
+   "Exchange": "Korea Exchange",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Chemicals",
+   "GICS Sub-Industry": "Commodity Chemicals"
+ },
+ {
+   "Company Name": "Alphawave IP Group",
+   "Ticker": "AWE",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Semiconductors & Semiconductor Equipment",
+   "GICS Industry": "Semiconductors & Semiconductor Equipment",
+   "GICS Sub-Industry": "Semiconductors"
+ },
+ {
+   "Company Name": "Bunzl PLC",
+   "Ticker": "BNZL",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Trading Companies & Distributors",
+   "GICS Sub-Industry": "Trading Companies & Distributors"
+ },
+ {
+   "Company Name": "BT Group PLC",
+   "Ticker": "BT.A",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Telecommunication Services",
+   "GICS Industry": "Diversified Telecommunication Services",
+   "GICS Sub-Industry": "Integrated Telecommunication Services"
+ },
+ {
+   "Company Name": "City of London Investment Group PLC",
+   "Ticker": "CLIG",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Asset Management & Custody Banks"
+ },
+ {
+   "Company Name": "Compass Group PLC",
+   "Ticker": "CPG",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Restaurants"
+ },
+ {
+   "Company Name": "Dominos Pizza Inc",
+   "Ticker": "DOM",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Restaurants"
+ },
+ {
+   "Company Name": "discoverIE Group PLC",
+   "Ticker": "DSCV",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Electrical Equipment",
+   "GICS Sub-Industry": "Electrical Components & Equipment"
+ },
+ {
+   "Company Name": "easyJet PLC",
+   "Ticker": "EZJ",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Transportation",
+   "GICS Industry": "Passenger Airlines",
+   "GICS Sub-Industry": "Passenger Airlines"
+ },
+ {
+   "Company Name": "Glencore PLC",
+   "Ticker": "GLEN",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Metals & Mining",
+   "GICS Sub-Industry": "Diversified Metals & Mining"
+ },
+ {
+   "Company Name": "HSBC Holdings PLC",
+   "Ticker": "HSBA",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "Hostelworld Group PLC",
+   "Ticker": "HSW",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Hotels, Resorts & Cruise Lines"
+ },
+ {
+   "Company Name": "InterContinental Hotels Group PLC",
+   "Ticker": "IHG",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Hotels, Resorts & Cruise Lines"
+ },
+ {
+   "Company Name": "Johnson Matthey PLC",
+   "Ticker": "JMAT",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Chemicals",
+   "GICS Sub-Industry": "Specialty Chemicals"
+ },
+ {
+   "Company Name": "Lloyds Banking Group PLC",
+   "Ticker": "LLOY",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "Mondi PLC",
+   "Ticker": "MNDI",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Paper & Forest Products",
+   "GICS Sub-Industry": "Paper Products"
+ },
+ {
+   "Company Name": "NatWest Group PLC",
+   "Ticker": "NWG",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "Next PLC",
+   "Ticker": "NXT",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Distributors",
+   "GICS Sub-Industry": "Broadline Retail"
+ },
+ {
+   "Company Name": "On The Beach Group PLC",
+   "Ticker": "OTB",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Hotels, Resorts & Cruise Lines"
+ },
+ {
+   "Company Name": "Pearson PLC",
+   "Ticker": "PSON",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Diversified Consumer Services",
+   "GICS Sub-Industry": "Education Services"
+ },
+ {
+   "Company Name": "Reckitt Benckiser Group PLC",
+   "Ticker": "RKT",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Household & Personal Products",
+   "GICS Industry": "Household Products",
+   "GICS Sub-Industry": "Household Products"
+ },
+ {
+   "Company Name": "Rightmove Plc",
+   "Ticker": "RMV",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Media & Entertainment",
+   "GICS Industry": "Interactive Media & Services",
+   "GICS Sub-Industry": "Interactive Media & Services"
+ },
+ {
+   "Company Name": "Rolls-Royce Holdings PLC",
+   "Ticker": "RR",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Aerospace & Defense",
+   "GICS Sub-Industry": "Aerospace & Defense"
+ },
+ {
+   "Company Name": "Sainsbury (J) PLC",
+   "Ticker": "SBRY",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Consumer Staples Distribution & Retail",
+   "GICS Industry": "Consumer Staples Distribution & Retail",
+   "GICS Sub-Industry": "Food Retail"
+ },
+ {
+   "Company Name": "Schroders PLC",
+   "Ticker": "SDR",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Asset Management & Custody Banks"
+ },
+ {
+   "Company Name": "Sage Group (The) PLC",
+   "Ticker": "SGE",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "Software",
+   "GICS Sub-Industry": "Application Software"
+ },
+ {
+   "Company Name": "Smiths Group PLC",
+   "Ticker": "SMIN",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Industrial Conglomerates",
+   "GICS Sub-Industry": "Industrial Conglomerates"
+ },
+ {
+   "Company Name": "SSE PLC",
+   "Ticker": "SSE",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Electric Utilities",
+   "GICS Sub-Industry": "Electric Utilities"
+ },
+ {
+   "Company Name": "Standard Chartered PLC",
+   "Ticker": "STAN",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "Severn Trent PLC",
+   "Ticker": "SVT",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Water Utilities",
+   "GICS Sub-Industry": "Water Utilities"
+ },
+ {
+   "Company Name": "Tullow Oil PLC",
+   "Ticker": "TLW",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Oil & Gas Exploration & Production"
+ },
+ {
+   "Company Name": "Unilever PLC",
+   "Ticker": "ULVR",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Household & Personal Products",
+   "GICS Industry": "Personal Care Products",
+   "GICS Sub-Industry": "Personal Care Products"
+ },
+ {
+   "Company Name": "United Utilities Group PLC",
+   "Ticker": "UU",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Water Utilities",
+   "GICS Sub-Industry": "Water Utilities"
+ },
+ {
+   "Company Name": "Vodafone Group PLC",
+   "Ticker": "VOD",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Telecommunication Services",
+   "GICS Industry": "Wireless Telecommunication Services",
+   "GICS Sub-Industry": "Wireless Telecommunication Services"
+ },
+ {
+   "Company Name": "Whitbread PLC",
+   "Ticker": "WTB",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Hotels, Resorts & Cruise Lines"
+ },
+ {
+   "Company Name": "Wynnstay Group PLC",
+   "Ticker": "WYN",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Food Products",
+   "GICS Sub-Industry": "Agricultural Products & Services"
+ },
+ {
+   "Company Name": "Royal Dutch Shell PLC",
+   "Ticker": "SHEL",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Integrated Oil & Gas"
+ },
+ {
+   "Company Name": "AstraZeneca PLC",
+   "Ticker": "AZN",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Pharmaceuticals",
+   "GICS Sub-Industry": "Pharmaceuticals"
+ },
+ {
+   "Company Name": "Smith & Nephew PLC",
+   "Ticker": "SN",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Health Care Equipment & Services",
+   "GICS Industry": "Health Care Equipment & Supplies",
+   "GICS Sub-Industry": "Health Care Equipment"
+ },
+ {
+   "Company Name": "Experian PLC",
+   "Ticker": "EXPN",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Commercial  & Professional Services",
+   "GICS Industry": "Professional Services",
+   "GICS Sub-Industry": "Research & Consulting Services"
+ },
+ {
+   "Company Name": "BHP Group PLC",
+   "Ticker": "BHP",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Metals & Mining",
+   "GICS Sub-Industry": "Diversified Metals & Mining"
+ },
+ {
+   "Company Name": "Carclo PLC",
+   "Ticker": "CAR",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Chemicals",
+   "GICS Sub-Industry": "Specialty Chemicals"
+ },
+ {
+   "Company Name": "Rio Tinto PLC",
+   "Ticker": "RIO",
+   "Exchange": "London Stock Exchange",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Metals & Mining",
+   "GICS Sub-Industry": "Diversified Metals & Mining"
+ },
+ {
+   "Company Name": "American Airlines Group Inc",
+   "Ticker": "AAL",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Transportation",
+   "GICS Industry": "Passenger Airlines",
+   "GICS Sub-Industry": "Passenger Airlines"
+ },
+ {
+   "Company Name": "Apple Inc",
+   "Ticker": "AAPL",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Technology Hardware & Equipment",
+   "GICS Industry": "Technology Hardware, Storage & Peripherals",
+   "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals"
+ },
+ {
+   "Company Name": "Acadia Healthcare Co Inc",
+   "Ticker": "ACHC",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Health Care Equipment & Services",
+   "GICS Industry": "Health Care Providers & Services",
+   "GICS Sub-Industry": "Health Care Facilities"
+ },
+ {
+   "Company Name": "Adobe Inc",
+   "Ticker": "ADBE",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "Software",
+   "GICS Sub-Industry": "Application Software"
+ },
+ {
+   "Company Name": "Aehr Test Systems",
+   "Ticker": "AEHR",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Semiconductors & Semiconductor Equipment",
+   "GICS Industry": "Semiconductors & Semiconductor Equipment",
+   "GICS Sub-Industry": "Semiconductor Materials & Equipment"
+ },
+ {
+   "Company Name": "American Electric Power Co Inc",
+   "Ticker": "AEP",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Electric Utilities",
+   "GICS Sub-Industry": "Electric Utilities"
+ },
+ {
+   "Company Name": "Advanced Micro Devices",
+   "Ticker": "AMD",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Semiconductors & Semiconductor Equipment",
+   "GICS Industry": "Semiconductors & Semiconductor Equipment",
+   "GICS Sub-Industry": "Semiconductors"
+ },
+ {
+   "Company Name": "Amgen Inc",
+   "Ticker": "AMGN",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Biotechnology",
+   "GICS Sub-Industry": "Biotechnology"
+ },
+ {
+   "Company Name": "Aemetis Inc",
+   "Ticker": "AMTX",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Oil & Gas Refining & Marketing"
+ },
+ {
+   "Company Name": "Amazon.com Inc",
+   "Ticker": "AMZN",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Distributors",
+   "GICS Sub-Industry": "Broadline Retail"
+ },
+ {
+   "Company Name": "ArcBest Corp",
+   "Ticker": "ARCB",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Transportation",
+   "GICS Industry": "Ground Transportation",
+   "GICS Sub-Industry": "Cargo Ground Transportation"
+ },
+ {
+   "Company Name": "Broadcom Inc",
+   "Ticker": "AVGO",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Semiconductors & Semiconductor Equipment",
+   "GICS Industry": "Semiconductors & Semiconductor Equipment",
+   "GICS Sub-Industry": "Semiconductors"
+ },
+ {
+   "Company Name": "Beacon Roofing Supply Inc",
+   "Ticker": "BECN",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Trading Companies & Distributors",
+   "GICS Sub-Industry": "Trading Companies & Distributors"
+ },
+ {
+   "Company Name": "Baidu Inc",
+   "Ticker": "BIDU",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Media & Entertainment",
+   "GICS Industry": "Interactive Media & Services",
+   "GICS Sub-Industry": "Interactive Media & Services"
+ },
+ {
+   "Company Name": "China Automotive Systems Inc",
+   "Ticker": "CAAS",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Automobiles & Components",
+   "GICS Industry": "Automobile Components",
+   "GICS Sub-Industry": "Automotive Parts & Equipment"
+ },
+ {
+   "Company Name": "Cheesecake Factory Inc",
+   "Ticker": "CAKE",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Restaurants"
+ },
+ {
+   "Company Name": "Casey's General Stores Inc",
+   "Ticker": "CASY",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Consumer Staples Distribution & Retail",
+   "GICS Industry": "Consumer Staples Distribution & Retail",
+   "GICS Sub-Industry": "Food Retail"
+ },
+ {
+   "Company Name": "China Natural Resources Inc",
+   "Ticker": "CHNR",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Metals & Mining",
+   "GICS Sub-Industry": "Diversified Metals & Mining"
+ },
+ {
+   "Company Name": "Chargepoint Holdings",
+   "Ticker": "CHPT",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Electrical Equipment",
+   "GICS Sub-Industry": "Electrical Components & Equipment"
+ },
+ {
+   "Company Name": "Comcast Corp",
+   "Ticker": "CMCSA",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Media & Entertainment",
+   "GICS Industry": "Media",
+   "GICS Sub-Industry": "Cable & Satellite"
+ },
+ {
+   "Company Name": "Costco Wholesale Corp",
+   "Ticker": "COST",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Consumer Staples Distribution & Retail",
+   "GICS Industry": "Consumer Staples Distribution & Retail",
+   "GICS Sub-Industry": "Consumer Staples Merchandise Retail"
+ },
+ {
+   "Company Name": "Catalyst Pharmaceuticals Inc",
+   "Ticker": "CPRX",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Biotechnology",
+   "GICS Sub-Industry": "Biotechnology"
+ },
+ {
+   "Company Name": "CISCO Systems Inc",
+   "Ticker": "CSCO",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Technology Hardware & Equipment",
+   "GICS Industry": "Communications Equipment",
+   "GICS Sub-Industry": "Communications Equipment"
+ },
+ {
+   "Company Name": "Cognizant Technology Solutions Corp",
+   "Ticker": "CTSH",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "IT Services",
+   "GICS Sub-Industry": "IT Consulting & Other Services"
+ },
+ {
+   "Company Name": "Caesars Entertainment Inc",
+   "Ticker": "CZR",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Casinos & Gaming"
+ },
+ {
+   "Company Name": "Dropbox Inc",
+   "Ticker": "DBX",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "Software",
+   "GICS Sub-Industry": "Application Software"
+ },
+ {
+   "Company Name": "Daily Journal Corp",
+   "Ticker": "DJCO",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "Software",
+   "GICS Sub-Industry": "Application Software"
+ },
+ {
+   "Company Name": "Dollar Tree Inc",
+   "Ticker": "DLTR",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Consumer Staples Distribution & Retail",
+   "GICS Industry": "Consumer Staples Distribution & Retail",
+   "GICS Sub-Industry": "Consumer Staples Merchandise Retail"
+ },
+ {
+   "Company Name": "ETSY Inc",
+   "Ticker": "ETSY",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Distributors",
+   "GICS Sub-Industry": "Broadline Retail"
+ },
+ {
+   "Company Name": "National Beverage Corp",
+   "Ticker": "FIZZ",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Beverages",
+   "GICS Sub-Industry": "Soft Drinks & Non-alcoholic Beverages"
+ },
+ {
+   "Company Name": "Fortinet Inc",
+   "Ticker": "FTNT",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "Software",
+   "GICS Sub-Industry": "Systems Software"
+ },
+ {
+   "Company Name": "Glacier Bancorp Inc",
+   "Ticker": "GBCI",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Regional Banks"
+ },
+ {
+   "Company Name": "Great Elm Group Inc",
+   "Ticker": "GEG",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Asset Management & Custody Banks"
+ },
+ {
+   "Company Name": "Gilead Sciences Inc",
+   "Ticker": "GILD",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Biotechnology",
+   "GICS Sub-Industry": "Biotechnology"
+ },
+ {
+   "Company Name": "Genmab A/S",
+   "Ticker": "GMAB",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Biotechnology",
+   "GICS Sub-Industry": "Biotechnology"
+ },
+ {
+   "Company Name": "Gogo Inc",
+   "Ticker": "GOGO",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Telecommunication Services",
+   "GICS Industry": "Wireless Telecommunication Services",
+   "GICS Sub-Industry": "Wireless Telecommunication Services"
+ },
+ {
+   "Company Name": "Alphabet Inc",
+   "Ticker": "GOOGL",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Media & Entertainment",
+   "GICS Industry": "Interactive Media & Services",
+   "GICS Sub-Industry": "Interactive Media & Services"
+ },
+ {
+   "Company Name": "Groupon Inc",
+   "Ticker": "GRPN",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Distributors",
+   "GICS Sub-Industry": "Broadline Retail"
+ },
+ {
+   "Company Name": "Hasbro Inc",
+   "Ticker": "HAS",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Durables & Apparel",
+   "GICS Industry": "Leisure Products",
+   "GICS Sub-Industry": "Leisure Products"
+ },
+ {
+   "Company Name": "Harvard Bioscience Inc",
+   "Ticker": "HBIO",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Life Sciences Tools & Services",
+   "GICS Sub-Industry": "Life Sciences Tools & Services"
+ },
+ {
+   "Company Name": "Heartland Express Inc",
+   "Ticker": "HTLD",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Transportation",
+   "GICS Industry": "Ground Transportation",
+   "GICS Sub-Industry": "Cargo Ground Transportation"
+ },
+ {
+   "Company Name": "Illumina Inc",
+   "Ticker": "ILMN",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Life Sciences Tools & Services",
+   "GICS Sub-Industry": "Life Sciences Tools & Services"
+ },
+ {
+   "Company Name": "INTEL Corp",
+   "Ticker": "INTC",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Semiconductors & Semiconductor Equipment",
+   "GICS Industry": "Semiconductors & Semiconductor Equipment",
+   "GICS Sub-Industry": "Semiconductors"
+ },
+ {
+   "Company Name": "Innospec Inc",
+   "Ticker": "IOSP",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Chemicals",
+   "GICS Sub-Industry": "Specialty Chemicals"
+ },
+ {
+   "Company Name": "JetBlue Airways Corp",
+   "Ticker": "JBLU",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Transportation",
+   "GICS Industry": "Passenger Airlines",
+   "GICS Sub-Industry": "Passenger Airlines"
+ },
+ {
+   "Company Name": "J&J Snack Foods Corp",
+   "Ticker": "JJSF",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Food Products",
+   "GICS Sub-Industry": "Packaged Foods & Meats"
+ },
+ {
+   "Company Name": "Kaiser Aluminum Corp",
+   "Ticker": "KALU",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Metals & Mining",
+   "GICS Sub-Industry": "Aluminum"
+ },
+ {
+   "Company Name": "Keurig Dr Pepper Inc",
+   "Ticker": "KDP",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Beverages",
+   "GICS Sub-Industry": "Soft Drinks & Non-alcoholic Beverages"
+ },
+ {
+   "Company Name": "Lands' End Inc",
+   "Ticker": "LE",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Specialty Retail",
+   "GICS Sub-Industry": "Apparel Retail"
+ },
+ {
+   "Company Name": "Liquidia Corporation",
+   "Ticker": "LQDA",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Pharmaceuticals",
+   "GICS Sub-Industry": "Pharmaceuticals"
+ },
+ {
+   "Company Name": "Lululemon Athletica Inc",
+   "Ticker": "LULU",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Durables & Apparel",
+   "GICS Industry": "Textiles, Apparel & Luxury Goods",
+   "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods"
+ },
+ {
+   "Company Name": "Lyft Inc",
+   "Ticker": "LYFT",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Transportation",
+   "GICS Industry": "Ground Transportation",
+   "GICS Sub-Industry": "Passenger Ground Transportation"
+ },
+ {
+   "Company Name": "Manhattan Associates Inc",
+   "Ticker": "MANH",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "Software",
+   "GICS Sub-Industry": "Application Software"
+ },
+ {
+   "Company Name": "Marriott International Inc",
+   "Ticker": "MAR",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Hotels, Resorts & Cruise Lines"
+ },
+ {
+   "Company Name": "Mattel Inc",
+   "Ticker": "MAT",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Durables & Apparel",
+   "GICS Industry": "Leisure Products",
+   "GICS Sub-Industry": "Leisure Products"
+ },
+ {
+   "Company Name": "META  ",
+   "Ticker": "META",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Media & Entertainment",
+   "GICS Industry": "Interactive Media & Services",
+   "GICS Sub-Industry": "Interactive Media & Services"
+ },
+ {
+   "Company Name": "Middelby Corp",
+   "Ticker": "MIDD",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Machinery",
+   "GICS Sub-Industry": "Industrial Machinery & Supplies & Components"
+ },
+ {
+   "Company Name": "Monster Beverage Corp",
+   "Ticker": "MNST",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Beverages",
+   "GICS Sub-Industry": "Soft Drinks & Non-alcoholic Beverages"
+ },
+ {
+   "Company Name": "Middlesex Water Co",
+   "Ticker": "MSEX",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Water Utilities",
+   "GICS Sub-Industry": "Water Utilities"
+ },
+ {
+   "Company Name": "Microsoft Corp",
+   "Ticker": "MSFT",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "Software",
+   "GICS Sub-Industry": "Systems Software"
+ },
+ {
+   "Company Name": "Match Group Inc",
+   "Ticker": "MTCH",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Media & Entertainment",
+   "GICS Industry": "Interactive Media & Services",
+   "GICS Sub-Industry": "Interactive Media & Services"
+ },
+ {
+   "Company Name": "Myriad Genetics Inc",
+   "Ticker": "MYGN",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Biotechnology",
+   "GICS Sub-Industry": "Biotechnology"
+ },
+ {
+   "Company Name": "The9 Ltd",
+   "Ticker": "NCTY",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "Software",
+   "GICS Sub-Industry": "Application Software"
+ },
+ {
+   "Company Name": "NETFLIX Inc",
+   "Ticker": "NFLX",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Media & Entertainment",
+   "GICS Industry": "Entertainment",
+   "GICS Sub-Industry": "Movies & Entertainment"
+ },
+ {
+   "Company Name": "NetEase Inc",
+   "Ticker": "NTES",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Media & Entertainment",
+   "GICS Industry": "Entertainment",
+   "GICS Sub-Industry": "Interactive Home Entertainment"
+ },
+ {
+   "Company Name": "Northern Technologies International Corp",
+   "Ticker": "NTIC",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Chemicals",
+   "GICS Sub-Industry": "Specialty Chemicals"
+ },
+ {
+   "Company Name": "NVIDIA Corp",
+   "Ticker": "NVDA",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Semiconductors & Semiconductor Equipment",
+   "GICS Industry": "Semiconductors & Semiconductor Equipment",
+   "GICS Sub-Industry": "Semiconductors"
+ },
+ {
+   "Company Name": "NXP Semiconductors NV",
+   "Ticker": "NXPI",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Semiconductors & Semiconductor Equipment",
+   "GICS Industry": "Semiconductors & Semiconductor Equipment",
+   "GICS Sub-Industry": "Semiconductors"
+ },
+ {
+   "Company Name": "Old National Bancorp",
+   "Ticker": "ONB",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Regional Banks"
+ },
+ {
+   "Company Name": "O'Reilly Automotive Inc",
+   "Ticker": "ORLY",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Specialty Retail",
+   "GICS Sub-Industry": "Automotive Retail"
+ },
+ {
+   "Company Name": "Bank OZK",
+   "Ticker": "OZK",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Regional Banks"
+ },
+ {
+   "Company Name": "PACCAR Inc",
+   "Ticker": "PCAR",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Machinery",
+   "GICS Sub-Industry": "Construction Machinery & Heavy Transportation Equipment"
+ },
+ {
+   "Company Name": "PepsiCo Inc",
+   "Ticker": "PEP",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Beverages",
+   "GICS Sub-Industry": "Soft Drinks & Non-alcoholic Beverages"
+ },
+ {
+   "Company Name": "Peloton Interactive Inc",
+   "Ticker": "PTON",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Durables & Apparel",
+   "GICS Industry": "Leisure Products",
+   "GICS Sub-Industry": "Leisure Products"
+ },
+ {
+   "Company Name": "PayPal Holdings Inc",
+   "Ticker": "PYPL",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": " Financial Services",
+   "GICS Sub-Industry": "Transaction & Payment Processing Services"
+ },
+ {
+   "Company Name": "Papa John's International Inc",
+   "Ticker": "PZZA",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Restaurants"
+ },
+ {
+   "Company Name": "QUALCOMM Inc",
+   "Ticker": "QCOM",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Semiconductors & Semiconductor Equipment",
+   "GICS Industry": "Semiconductors & Semiconductor Equipment",
+   "GICS Sub-Industry": "Semiconductors"
+ },
+ {
+   "Company Name": "Regeneron Pharmaceuticals Inc",
+   "Ticker": "REGN",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Biotechnology",
+   "GICS Sub-Industry": "Biotechnology"
+ },
+ {
+   "Company Name": "Royal Gold Inc",
+   "Ticker": "RGLD",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Metals & Mining",
+   "GICS Sub-Industry": "Gold"
+ },
+ {
+   "Company Name": "Gibraltar Industries Inc",
+   "Ticker": "ROCK",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Building Products",
+   "GICS Sub-Industry": "Building Products"
+ },
+ {
+   "Company Name": "Baijiayun Group Ltd",
+   "Ticker": "RTC",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "Software",
+   "GICS Sub-Industry": "Application Software"
+ },
+ {
+   "Company Name": "Starbucks Corp",
+   "Ticker": "SBUX",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Restaurants"
+ },
+ {
+   "Company Name": "Solar Edge",
+   "Ticker": "SEDG",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Semiconductors & Semiconductor Equipment",
+   "GICS Industry": "Semiconductors & Semiconductor Equipment",
+   "GICS Sub-Industry": "Semiconductor Materials & Equipment"
+ },
+ {
+   "Company Name": "SEI Investments Co",
+   "Ticker": "SEIC",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Asset Management & Custody Banks"
+ },
+ {
+   "Company Name": "Stitch Fix Inc",
+   "Ticker": "SFIX",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Specialty Retail",
+   "GICS Sub-Industry": "Apparel Retail"
+ },
+ {
+   "Company Name": "Sprouts Farmers Market Inc",
+   "Ticker": "SFM",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Consumer Staples Distribution & Retail",
+   "GICS Industry": "Consumer Staples Distribution & Retail",
+   "GICS Sub-Industry": "Food Retail"
+ },
+ {
+   "Company Name": "Sirius XM Holdings Inc",
+   "Ticker": "SIRI",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Media & Entertainment",
+   "GICS Industry": "Media",
+   "GICS Sub-Industry": "Cable & Satellite"
+ },
+ {
+   "Company Name": "SkyWest Inc",
+   "Ticker": "SKYW",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Transportation",
+   "GICS Industry": "Passenger Airlines",
+   "GICS Sub-Industry": "Passenger Airlines"
+ },
+ {
+   "Company Name": "Sohu.com Ltd",
+   "Ticker": "SOHU",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Media & Entertainment",
+   "GICS Industry": "Entertainment",
+   "GICS Sub-Industry": "Interactive Home Entertainment"
+ },
+ {
+   "Company Name": "Smith & Wesson Brands Inc",
+   "Ticker": "SWBI",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Durables & Apparel",
+   "GICS Industry": "Leisure Products",
+   "GICS Sub-Industry": "Leisure Products"
+ },
+ {
+   "Company Name": "Price (T. ROWE) Group",
+   "Ticker": "TROW",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Asset Management & Custody Banks"
+ },
+ {
+   "Company Name": "Tesla Inc",
+   "Ticker": "TSLA",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Automobiles & Components",
+   "GICS Industry": "Automobiles",
+   "GICS Sub-Industry": "Automobile Manufacturers"
+ },
+ {
+   "Company Name": "Texas Instruments Inc",
+   "Ticker": "TXN",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Semiconductors & Semiconductor Equipment",
+   "GICS Industry": "Semiconductors & Semiconductor Equipment",
+   "GICS Sub-Industry": "Semiconductors"
+ },
+ {
+   "Company Name": "Texas Roadhouse Inc",
+   "Ticker": "TXRH",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Restaurants"
+ },
+ {
+   "Company Name": "Ulta Beauty Inc",
+   "Ticker": "ULTA",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Specialty Retail",
+   "GICS Sub-Industry": "Other Specialty Retail"
+ },
+ {
+   "Company Name": "Urban Outfitters Inc",
+   "Ticker": "URBN",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Specialty Retail",
+   "GICS Sub-Industry": "Apparel Retail"
+ },
+ {
+   "Company Name": "United States Lime & Minderals Inc.",
+   "Ticker": "USLM",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Construction Materials",
+   "GICS Sub-Industry": "Construction Materials"
+ },
+ {
+   "Company Name": "UTStarcom Holdings Corp",
+   "Ticker": "UTSI",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Technology Hardware & Equipment",
+   "GICS Industry": "Communications Equipment",
+   "GICS Sub-Industry": "Communications Equipment"
+ },
+ {
+   "Company Name": "VEON Ltd",
+   "Ticker": "VEON",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Telecommunication Services",
+   "GICS Industry": "Wireless Telecommunication Services",
+   "GICS Sub-Industry": "Wireless Telecommunication Services"
+ },
+ {
+   "Company Name": "Vera Bradley Inc",
+   "Ticker": "VRA",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Durables & Apparel",
+   "GICS Industry": "Textiles, Apparel & Luxury Goods",
+   "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods"
+ },
+ {
+   "Company Name": "Verisk Analytics Inc",
+   "Ticker": "VRSK",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Commercial  & Professional Services",
+   "GICS Industry": "Professional Services",
+   "GICS Sub-Industry": "Research & Consulting Services"
+ },
+ {
+   "Company Name": "Walgreens Boots Alliance Inc",
+   "Ticker": "WBA",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Consumer Staples Distribution & Retail",
+   "GICS Industry": "Consumer Staples Distribution & Retail",
+   "GICS Sub-Industry": "Drug Retail"
+ },
+ {
+   "Company Name": "WD-40 Co",
+   "Ticker": "WDFC",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Household & Personal Products",
+   "GICS Industry": "Household Products",
+   "GICS Sub-Industry": "Household Products"
+ },
+ {
+   "Company Name": "The Wendy's Co",
+   "Ticker": "WEN",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Restaurants"
+ },
+ {
+   "Company Name": "The York Water Co",
+   "Ticker": "YORW",
+   "Exchange": "Nasdaq",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Water Utilities",
+   "GICS Sub-Industry": "Water Utilities"
+ },
+ {
+   "Company Name": "AbbVie Inc",
+   "Ticker": "ABBV",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Biotechnology",
+   "GICS Sub-Industry": "Biotechnology"
+ },
+ {
+   "Company Name": "Abbott Laboratories",
+   "Ticker": "ABT",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Health Care Equipment & Services",
+   "GICS Industry": "Health Care Equipment & Supplies",
+   "GICS Sub-Industry": "Health Care Equipment"
+ },
+ {
+   "Company Name": "American Eagle Outfitters Inc",
+   "Ticker": "AEO",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Specialty Retail",
+   "GICS Sub-Industry": "Apparel Retail"
+ },
+ {
+   "Company Name": "Aflac Inc",
+   "Ticker": "AFL",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Insurance",
+   "GICS Industry": "Insurance",
+   "GICS Sub-Industry": "Life & Health Insurance"
+ },
+ {
+   "Company Name": "Allstate Corp",
+   "Ticker": "ALL",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Insurance",
+   "GICS Industry": "Insurance",
+   "GICS Sub-Industry": "Property & Casualty Insurance"
+ },
+ {
+   "Company Name": "AMC Entertainment Holdings",
+   "Ticker": "AMC",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Media & Entertainment",
+   "GICS Industry": "Entertainment",
+   "GICS Sub-Industry": "Movies & Entertainment"
+ },
+ {
+   "Company Name": "AMN Healthcare Services Inc",
+   "Ticker": "AMN",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Health Care Equipment & Services",
+   "GICS Industry": "Health Care Providers & Services",
+   "GICS Sub-Industry": "Health Care Services"
+ },
+ {
+   "Company Name": "Arista Networks Inc",
+   "Ticker": "ANET",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Technology Hardware & Equipment",
+   "GICS Industry": "Communications Equipment",
+   "GICS Sub-Industry": "Communications Equipment"
+ },
+ {
+   "Company Name": "Abercrombie & Fitch Co",
+   "Ticker": "ANF",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Specialty Retail",
+   "GICS Sub-Industry": "Apparel Retail"
+ },
+ {
+   "Company Name": "Artisan Partners Asset Management Inc",
+   "Ticker": "APAM",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Asset Management & Custody Banks"
+ },
+ {
+   "Company Name": "Air Products & Chemicals Inc",
+   "Ticker": "APD",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Chemicals",
+   "GICS Sub-Industry": "Industrial Gases"
+ },
+ {
+   "Company Name": "Aptiv PLC",
+   "Ticker": "APTV",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Automobiles & Components",
+   "GICS Industry": "Automobile Components",
+   "GICS Sub-Industry": "Automotive Parts & Equipment"
+ },
+ {
+   "Company Name": "ASGN Inc",
+   "Ticker": "ASGN",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "IT Services",
+   "GICS Sub-Industry": "IT Consulting & Other Services"
+ },
+ {
+   "Company Name": "Ashland Global Holdings Inc",
+   "Ticker": "ASH",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Chemicals",
+   "GICS Sub-Industry": "Specialty Chemicals"
+ },
+ {
+   "Company Name": "American Water Works Co Inc",
+   "Ticker": "AWK",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Water Utilities",
+   "GICS Sub-Industry": "Water Utilities"
+ },
+ {
+   "Company Name": "American Express Co",
+   "Ticker": "AXP",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Consumer Finance",
+   "GICS Sub-Industry": "Consumer Finance"
+ },
+ {
+   "Company Name": "Autozone Inc",
+   "Ticker": "AZO",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Specialty Retail",
+   "GICS Sub-Industry": "Automotive Retail"
+ },
+ {
+   "Company Name": "Boeing Co",
+   "Ticker": "BA",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Aerospace & Defense",
+   "GICS Sub-Industry": "Aerospace & Defense"
+ },
+ {
+   "Company Name": "Alibaba Group Holding Ltd",
+   "Ticker": "BABA",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Distributors",
+   "GICS Sub-Industry": "Broadline Retail"
+ },
+ {
+   "Company Name": "Bank of America Corp",
+   "Ticker": "BAC",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "Brookfield Asset Management",
+   "Ticker": "BAM",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Asset Management & Custody Banks"
+ },
+ {
+   "Company Name": "Baxter International Inc",
+   "Ticker": "BAX",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Health Care Equipment & Services",
+   "GICS Industry": "Health Care Equipment & Supplies",
+   "GICS Sub-Industry": "Health Care Equipment"
+ },
+ {
+   "Company Name": "Build-A-Bear Workshop Inc",
+   "Ticker": "BBW",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Specialty Retail",
+   "GICS Sub-Industry": "Other Specialty Retail"
+ },
+ {
+   "Company Name": "Best Buy Co Inc",
+   "Ticker": "BBY",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Specialty Retail",
+   "GICS Sub-Industry": "Computer & Electronics Retail"
+ },
+ {
+   "Company Name": "Barclays PLC",
+   "Ticker": "BCS",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "Franklin Resources Inc",
+   "Ticker": "BEN",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Asset Management & Custody Banks"
+ },
+ {
+   "Company Name": "Bill.com Holdings Inc",
+   "Ticker": "BILL",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "Software",
+   "GICS Sub-Industry": "Application Software"
+ },
+ {
+   "Company Name": "Blackrock Inc",
+   "Ticker": "BLK",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Asset Management & Custody Banks"
+ },
+ {
+   "Company Name": "Bristol-Myers Squibb Co",
+   "Ticker": "BMY",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Pharmaceuticals",
+   "GICS Sub-Industry": "Pharmaceuticals"
+ },
+ {
+   "Company Name": "Barnes & Noble Education Inc",
+   "Ticker": "BNED",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Specialty Retail",
+   "GICS Sub-Industry": "Other Specialty Retail"
+ },
+ {
+   "Company Name": "BP PLC",
+   "Ticker": "BP",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Integrated Oil & Gas"
+ },
+ {
+   "Company Name": "Anheuser-Bush InBev SA/NV",
+   "Ticker": "BUD",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Beverages",
+   "GICS Sub-Industry": "Brewers"
+ },
+ {
+   "Company Name": "Burlington Stores Inc",
+   "Ticker": "BURL",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Specialty Retail",
+   "GICS Sub-Industry": "Apparel Retail"
+ },
+ {
+   "Company Name": "BorgWarner Inc",
+   "Ticker": "BWA",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Automobiles & Components",
+   "GICS Industry": "Automobile Components",
+   "GICS Sub-Industry": "Automotive Parts & Equipment"
+ },
+ {
+   "Company Name": "Blackstone Inc",
+   "Ticker": "BX",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Asset Management & Custody Banks"
+ },
+ {
+   "Company Name": "Citigroup Inc",
+   "Ticker": "C",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "Caterpillar Inc",
+   "Ticker": "CAT",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Machinery",
+   "GICS Sub-Industry": "Construction Machinery & Heavy Transportation Equipment"
+ },
+ {
+   "Company Name": "Cameco Corp",
+   "Ticker": "CCJ",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Coal & Consumable Fuels"
+ },
+ {
+   "Company Name": "Colgate-Palmolive Co",
+   "Ticker": "CL",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Household & Personal Products",
+   "GICS Industry": "Household Products",
+   "GICS Sub-Industry": "Household Products"
+ },
+ {
+   "Company Name": "Clearwater Paper Corp",
+   "Ticker": "CLW",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Paper & Forest Products",
+   "GICS Sub-Industry": "Paper Products"
+ },
+ {
+   "Company Name": "Chipotle Mexican Grill Inc",
+   "Ticker": "CMG",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Restaurants"
+ },
+ {
+   "Company Name": "Centene Corp",
+   "Ticker": "CNC",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Health Care Equipment & Services",
+   "GICS Industry": "Health Care Providers & Services",
+   "GICS Sub-Industry": "Managed Health Care"
+ },
+ {
+   "Company Name": "Canadian National Railway Co",
+   "Ticker": "CNI",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Transportation",
+   "GICS Industry": "Ground Transportation",
+   "GICS Sub-Industry": "Rail Transportation"
+ },
+ {
+   "Company Name": "Canadian Pacific Railway Ltd",
+   "Ticker": "CP",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Transportation",
+   "GICS Industry": "Ground Transportation",
+   "GICS Sub-Industry": "Rail Transportation"
+ },
+ {
+   "Company Name": "Campbell Soup Co",
+   "Ticker": "CPB",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Food Products",
+   "GICS Sub-Industry": "Packaged Foods & Meats"
+ },
+ {
+   "Company Name": "CRH PLC",
+   "Ticker": "CRH",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Construction Materials",
+   "GICS Sub-Industry": "Construction Materials"
+ },
+ {
+   "Company Name": "Salesforce Inc",
+   "Ticker": "CRM",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "Software",
+   "GICS Sub-Industry": "Application Software"
+ },
+ {
+   "Company Name": "Corteva Inc",
+   "Ticker": "CTVA",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Chemicals",
+   "GICS Sub-Industry": "Fertilizers & Agricultural Chemicals"
+ },
+ {
+   "Company Name": "CVS Health Corp",
+   "Ticker": "CVS",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Health Care Equipment & Services",
+   "GICS Industry": "Health Care Providers & Services",
+   "GICS Sub-Industry": "Health Care Services"
+ },
+ {
+   "Company Name": "Chevron Corp",
+   "Ticker": "CVX",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Integrated Oil & Gas"
+ },
+ {
+   "Company Name": "China Yuchai International Ltd",
+   "Ticker": "CYD",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Machinery",
+   "GICS Sub-Industry": "Construction Machinery & Heavy Transportation Equipment"
+ },
+ {
+   "Company Name": "Dominion Energy Inc",
+   "Ticker": "D",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Multi-Utilities",
+   "GICS Sub-Industry": "Multi-Utilities"
+ },
+ {
+   "Company Name": "Delta Air Lines Inc",
+   "Ticker": "DAL",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Transportation",
+   "GICS Industry": "Passenger Airlines",
+   "GICS Sub-Industry": "Passenger Airlines"
+ },
+ {
+   "Company Name": "Deutsche Bank AG",
+   "Ticker": "DB",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Diversified Capital Markets"
+ },
+ {
+   "Company Name": "Deere & Co",
+   "Ticker": "DE",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Machinery",
+   "GICS Sub-Industry": "Agricultural & Farm Machinery"
+ },
+ {
+   "Company Name": "Diageo PLC",
+   "Ticker": "DEO",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Beverages",
+   "GICS Sub-Industry": "Distillers & Vintners"
+ },
+ {
+   "Company Name": "Discover Financial Services",
+   "Ticker": "DFS",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Consumer Finance",
+   "GICS Sub-Industry": "Consumer Finance"
+ },
+ {
+   "Company Name": "Dollar General Corp",
+   "Ticker": "DG",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Consumer Staples Distribution & Retail",
+   "GICS Industry": "Consumer Staples Distribution & Retail",
+   "GICS Sub-Industry": "Consumer Staples Merchandise Retail"
+ },
+ {
+   "Company Name": "The Walt Disney Co",
+   "Ticker": "DIS",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Media & Entertainment",
+   "GICS Industry": "Entertainment",
+   "GICS Sub-Industry": "Movies & Entertainment"
+ },
+ {
+   "Company Name": "Digital Realty Trust Inc",
+   "Ticker": "DLR",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Real Estate",
+   "GICS Industry Group": "Equity Real Estate Investment Trusts (REITs)",
+   "GICS Industry": "Specialized REITs",
+   "GICS Sub-Industry": "Data Center REITs"
+ },
+ {
+   "Company Name": "Physicians Realty Trust",
+   "Ticker": "DOC",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Real Estate",
+   "GICS Industry Group": "Equity Real Estate Investment Trusts (REITs)",
+   "GICS Industry": "Health Care REITs",
+   "GICS Sub-Industry": "Health Care REITs"
+ },
+ {
+   "Company Name": "Dow Chemical Company",
+   "Ticker": "DOW",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Chemicals",
+   "GICS Sub-Industry": "Commodity Chemicals"
+ },
+ {
+   "Company Name": "DXC Technology Co",
+   "Ticker": "DXC",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "IT Services",
+   "GICS Sub-Industry": "IT Consulting & Other Services"
+ },
+ {
+   "Company Name": "Endeavor Group Holdings",
+   "Ticker": "EDR",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Media & Entertainment",
+   "GICS Industry": "Entertainment",
+   "GICS Sub-Industry": "Movies & Entertainment"
+ },
+ {
+   "Company Name": "New Oriental Education & Technology Group Inc",
+   "Ticker": "EDU",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Diversified Consumer Services",
+   "GICS Sub-Industry": "Education Services"
+ },
+ {
+   "Company Name": "The Estee Lauder Companies Inc",
+   "Ticker": "EL",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Household & Personal Products",
+   "GICS Industry": "Personal Care Products",
+   "GICS Sub-Industry": "Personal Care Products"
+ },
+ {
+   "Company Name": "Eastman Chemical Co",
+   "Ticker": "EMN",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Chemicals",
+   "GICS Sub-Industry": "Specialty Chemicals"
+ },
+ {
+   "Company Name": "Enbridge Inc",
+   "Ticker": "ENB",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Oil & Gas Storage & Transportation"
+ },
+ {
+   "Company Name": "Energy Transfer LP",
+   "Ticker": "ET",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Oil & Gas Storage & Transportation"
+ },
+ {
+   "Company Name": "Extra Space Storage Inc",
+   "Ticker": "EXR",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Real Estate",
+   "GICS Industry Group": "Equity Real Estate Investment Trusts (REITs)",
+   "GICS Industry": "Specialized REITs",
+   "GICS Sub-Industry": "Self-Storage REITs"
+ },
+ {
+   "Company Name": "Ford Motor Co",
+   "Ticker": "F",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Automobiles & Components",
+   "GICS Industry": "Automobiles",
+   "GICS Sub-Industry": "Automobile Manufacturers"
+ },
+ {
+   "Company Name": "FTI Consulting Inc",
+   "Ticker": "FCN",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Commercial  & Professional Services",
+   "GICS Industry": "Professional Services",
+   "GICS Sub-Industry": "Research & Consulting Services"
+ },
+ {
+   "Company Name": "Freeport-McMoRan Inc",
+   "Ticker": "FCX",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Metals & Mining",
+   "GICS Sub-Industry": "Copper"
+ },
+ {
+   "Company Name": "FirstEnergy Corp",
+   "Ticker": "FE",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Electric Utilities",
+   "GICS Sub-Industry": "Electric Utilities"
+ },
+ {
+   "Company Name": "Fair Isaac Corp",
+   "Ticker": "FICO",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "Software",
+   "GICS Sub-Industry": "Application Software"
+ },
+ {
+   "Company Name": "Foot Locker Inc",
+   "Ticker": "FL",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Specialty Retail",
+   "GICS Sub-Industry": "Apparel Retail"
+ },
+ {
+   "Company Name": "FMC Corp",
+   "Ticker": "FMC",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Chemicals",
+   "GICS Sub-Industry": "Fertilizers & Agricultural Chemicals"
+ },
+ {
+   "Company Name": "Fortis Inc",
+   "Ticker": "FTS",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Electric Utilities",
+   "GICS Sub-Industry": "Electric Utilities"
+ },
+ {
+   "Company Name": "General Dynamics Corp",
+   "Ticker": "GD",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Aerospace & Defense",
+   "GICS Sub-Industry": "Aerospace & Defense"
+ },
+ {
+   "Company Name": "General Electric Co",
+   "Ticker": "GE",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Aerospace & Defense",
+   "GICS Sub-Industry": "Aerospace & Defense"
+ },
+ {
+   "Company Name": "The GEO Group Inc",
+   "Ticker": "GEO",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Commercial  & Professional Services",
+   "GICS Industry": "Commercial Services & Supplies",
+   "GICS Sub-Industry": "Security & Alarm Services"
+ },
+ {
+   "Company Name": "General Mills Inc",
+   "Ticker": "GIS",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Food Products",
+   "GICS Sub-Industry": "Packaged Foods & Meats"
+ },
+ {
+   "Company Name": "General Motors Co",
+   "Ticker": "GM",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Automobiles & Components",
+   "GICS Industry": "Automobiles",
+   "GICS Sub-Industry": "Automobile Manufacturers"
+ },
+ {
+   "Company Name": "Globus Medical Inc",
+   "Ticker": "GMED",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Health Care Equipment & Services",
+   "GICS Industry": "Health Care Equipment & Supplies",
+   "GICS Sub-Industry": "Health Care Equipment"
+ },
+ {
+   "Company Name": "Garmin Ltd",
+   "Ticker": "GRMN",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Durables & Apparel",
+   "GICS Industry": "Household Durables",
+   "GICS Sub-Industry": "Consumer Electronics"
+ },
+ {
+   "Company Name": "Goldman Sachs Group Inc",
+   "Ticker": "GS",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Investment Banking & Brokerage"
+ },
+ {
+   "Company Name": "GlaxoSmithKline PLC",
+   "Ticker": "GSK",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Pharmaceuticals",
+   "GICS Sub-Industry": "Pharmaceuticals"
+ },
+ {
+   "Company Name": "Hyatt Hotels Corp",
+   "Ticker": "H",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Hotels, Resorts & Cruise Lines"
+ },
+ {
+   "Company Name": "Home Depot Inc",
+   "Ticker": "HD",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Specialty Retail",
+   "GICS Sub-Industry": "Home Improvement Retail"
+ },
+ {
+   "Company Name": "Hess Corp",
+   "Ticker": "HES",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Oil & Gas Exploration & Production"
+ },
+ {
+   "Company Name": "Honda Motor Co Ltd",
+   "Ticker": "HMC",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Automobiles & Components",
+   "GICS Industry": "Automobiles",
+   "GICS Sub-Industry": "Automobile Manufacturers"
+ },
+ {
+   "Company Name": "Harley-Davidson Inc",
+   "Ticker": "HOG",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Automobiles & Components",
+   "GICS Industry": "Automobiles",
+   "GICS Sub-Industry": "Motorcycle Manufacturers"
+ },
+ {
+   "Company Name": "H&R Block Inc",
+   "Ticker": "HRB",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Diversified Consumer Services",
+   "GICS Sub-Industry": "Specialized Consumer Services"
+ },
+ {
+   "Company Name": "The Hershey Co",
+   "Ticker": "HSY",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Food Products",
+   "GICS Sub-Industry": "Packaged Foods & Meats"
+ },
+ {
+   "Company Name": "Intercontinental Exchange Inc",
+   "Ticker": "ICE",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Financial Exchanges & Data"
+ },
+ {
+   "Company Name": "Imax Corp",
+   "Ticker": "IMAX",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Media & Entertainment",
+   "GICS Industry": "Entertainment",
+   "GICS Sub-Industry": "Movies & Entertainment"
+ },
+ {
+   "Company Name": "IQVIA Holdings Inc",
+   "Ticker": "IQV",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Life Sciences Tools & Services",
+   "GICS Sub-Industry": "Life Sciences Tools & Services"
+ },
+ {
+   "Company Name": "Iron Mountain Inc",
+   "Ticker": "IRM",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Real Estate",
+   "GICS Industry Group": "Equity Real Estate Investment Trusts (REITs)",
+   "GICS Industry": "Specialized REITs",
+   "GICS Sub-Industry": "Other Specialized REITs"
+ },
+ {
+   "Company Name": "Johnson & Johnson",
+   "Ticker": "JNJ",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Pharmaceuticals",
+   "GICS Sub-Industry": "Pharmaceuticals"
+ },
+ {
+   "Company Name": "JPMorgan Chase & Co",
+   "Ticker": "JPM",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "Kellogg Co",
+   "Ticker": "K",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Food Products",
+   "GICS Sub-Industry": "Packaged Foods & Meats"
+ },
+ {
+   "Company Name": "KeyCorp",
+   "Ticker": "KEY",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "KKR & Co Inc",
+   "Ticker": "KKR",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Asset Management & Custody Banks"
+ },
+ {
+   "Company Name": "Kinder Morgan Inc",
+   "Ticker": "KMI",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Oil & Gas Storage & Transportation"
+ },
+ {
+   "Company Name": "CarMax Inc",
+   "Ticker": "KMX",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Specialty Retail",
+   "GICS Sub-Industry": "Automotive Retail"
+ },
+ {
+   "Company Name": "Coca-Cola Co",
+   "Ticker": "KO",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Beverages",
+   "GICS Sub-Industry": "Soft Drinks & Non-alcoholic Beverages"
+ },
+ {
+   "Company Name": "Quaker Chemical Corp",
+   "Ticker": "KWR",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Chemicals",
+   "GICS Sub-Industry": "Specialty Chemicals"
+ },
+ {
+   "Company Name": "Loews Corp",
+   "Ticker": "L",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Insurance",
+   "GICS Industry": "Insurance",
+   "GICS Sub-Industry": "Property & Casualty Insurance"
+ },
+ {
+   "Company Name": "Lithium Americas",
+   "Ticker": "LAC",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Metals & Mining",
+   "GICS Sub-Industry": "Diversified Metals & Mining"
+ },
+ {
+   "Company Name": "Lazard Ltd",
+   "Ticker": "LAZ",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Investment Banking & Brokerage"
+ },
+ {
+   "Company Name": "LCI Industries Inc",
+   "Ticker": "LCII",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Automobiles & Components",
+   "GICS Industry": "Automobile Components",
+   "GICS Sub-Industry": "Automotive Parts & Equipment"
+ },
+ {
+   "Company Name": "Lockheed Martin Corp",
+   "Ticker": "LMT",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Aerospace & Defense",
+   "GICS Sub-Industry": "Aerospace & Defense"
+ },
+ {
+   "Company Name": "Lowe's Companies Inc",
+   "Ticker": "LOW",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Specialty Retail",
+   "GICS Sub-Industry": "Home Improvement Retail"
+ },
+ {
+   "Company Name": "Southwest Airlines Co",
+   "Ticker": "LUV",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Transportation",
+   "GICS Industry": "Passenger Airlines",
+   "GICS Sub-Industry": "Passenger Airlines"
+ },
+ {
+   "Company Name": "Las Vegas Sands Corp",
+   "Ticker": "LVS",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Casinos & Gaming"
+ },
+ {
+   "Company Name": "Macy's Inc",
+   "Ticker": "M",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Distributors",
+   "GICS Sub-Industry": "Broadline Retail"
+ },
+ {
+   "Company Name": "Mastercard Inc",
+   "Ticker": "MA",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": " Financial Services",
+   "GICS Sub-Industry": "Transaction & Payment Processing Services"
+ },
+ {
+   "Company Name": "McDonald's Corp",
+   "Ticker": "MCD",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Restaurants"
+ },
+ {
+   "Company Name": "McKesson Corp",
+   "Ticker": "MCK",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Health Care Equipment & Services",
+   "GICS Industry": "Health Care Providers & Services",
+   "GICS Sub-Industry": "Health Care Distributors"
+ },
+ {
+   "Company Name": "Moody's Corporation",
+   "Ticker": "MCO",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Financial Exchanges & Data"
+ },
+ {
+   "Company Name": "MetLife Inc",
+   "Ticker": "MET",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Insurance",
+   "GICS Industry": "Insurance",
+   "GICS Sub-Industry": "Life & Health Insurance"
+ },
+ {
+   "Company Name": "McCormick & Co Inc",
+   "Ticker": "MKC",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Food Products",
+   "GICS Sub-Industry": "Packaged Foods & Meats"
+ },
+ {
+   "Company Name": "Movado Group Inc",
+   "Ticker": "MOV",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Durables & Apparel",
+   "GICS Industry": "Textiles, Apparel & Luxury Goods",
+   "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods"
+ },
+ {
+   "Company Name": "Merck & Co Inc",
+   "Ticker": "MRK",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Pharmaceuticals",
+   "GICS Sub-Industry": "Pharmaceuticals"
+ },
+ {
+   "Company Name": "Morgan Stanley",
+   "Ticker": "MS",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Investment Banking & Brokerage"
+ },
+ {
+   "Company Name": "M&T Bank Corp",
+   "Ticker": "MTB",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Regional Banks"
+ },
+ {
+   "Company Name": "Norwegian Cruise Line Holdings Ltd",
+   "Ticker": "NCLH",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Hotels, Resorts & Cruise Lines"
+ },
+ {
+   "Company Name": "National Fuel Gas Co",
+   "Ticker": "NFG",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Gas Utilities",
+   "GICS Sub-Industry": "Gas Utilities"
+ },
+ {
+   "Company Name": "Natural Gas Services Group Inc",
+   "Ticker": "NGS",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Energy Equipment & Services",
+   "GICS Sub-Industry": "Oil & Gas Equipment & Services"
+ },
+ {
+   "Company Name": "Nike Inc",
+   "Ticker": "NKE",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Durables & Apparel",
+   "GICS Industry": "Textiles, Apparel & Luxury Goods",
+   "GICS Sub-Industry": "Footwear"
+ },
+ {
+   "Company Name": "Northrop Grumman Corp",
+   "Ticker": "NOC",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Aerospace & Defense",
+   "GICS Sub-Industry": "Aerospace & Defense"
+ },
+ {
+   "Company Name": "NOV Inc",
+   "Ticker": "NOV",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Energy Equipment & Services",
+   "GICS Sub-Industry": "Oil & Gas Equipment & Services"
+ },
+ {
+   "Company Name": "Nutrien Ltd",
+   "Ticker": "NTR",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Chemicals",
+   "GICS Sub-Industry": "Fertilizers & Agricultural Chemicals"
+ },
+ {
+   "Company Name": "Novo Nordisk",
+   "Ticker": "NVO",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Pharmaceuticals",
+   "GICS Sub-Industry": "Pharmaceuticals"
+ },
+ {
+   "Company Name": "Novartis AG",
+   "Ticker": "NVS",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Pharmaceuticals",
+   "GICS Sub-Industry": "Pharmaceuticals"
+ },
+ {
+   "Company Name": "ONEOK Inc",
+   "Ticker": "OKE",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Oil & Gas Storage & Transportation"
+ },
+ {
+   "Company Name": "Oppenheimer Holdings Inc",
+   "Ticker": "OPY",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Investment Banking & Brokerage"
+ },
+ {
+   "Company Name": "Oracle Corp",
+   "Ticker": "ORCL",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "Software",
+   "GICS Sub-Industry": "Systems Software"
+ },
+ {
+   "Company Name": "Prestige Consumer Healthcare Inc",
+   "Ticker": "PBH",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Pharmaceuticals",
+   "GICS Sub-Industry": "Pharmaceuticals"
+ },
+ {
+   "Company Name": "PG&E Corp",
+   "Ticker": "PCG",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Electric Utilities",
+   "GICS Sub-Industry": "Electric Utilities"
+ },
+ {
+   "Company Name": "Pfizer Inc",
+   "Ticker": "PFE",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Pharmaceuticals",
+   "GICS Sub-Industry": "Pharmaceuticals"
+ },
+ {
+   "Company Name": "Procter & Gamble Co",
+   "Ticker": "PG",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Household & Personal Products",
+   "GICS Industry": "Household Products",
+   "GICS Sub-Industry": "Household Products"
+ },
+ {
+   "Company Name": "POSCO",
+   "Ticker": "PKX",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Metals & Mining",
+   "GICS Sub-Industry": "Steel"
+ },
+ {
+   "Company Name": "Planet Fitness Inc",
+   "Ticker": "PLNT",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Leisure Facilities"
+ },
+ {
+   "Company Name": "Douglas Dynamics Inc",
+   "Ticker": "PLOW",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Machinery",
+   "GICS Sub-Industry": "Construction Machinery & Heavy Transportation Equipment"
+ },
+ {
+   "Company Name": "PNC Financial Services Group Inc",
+   "Ticker": "PNC",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "Prudential Financial Inc",
+   "Ticker": "PRU",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Insurance",
+   "GICS Industry": "Insurance",
+   "GICS Sub-Industry": "Life & Health Insurance"
+ },
+ {
+   "Company Name": "Public Storage",
+   "Ticker": "PSA",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Real Estate",
+   "GICS Industry Group": "Equity Real Estate Investment Trusts (REITs)",
+   "GICS Industry": "Specialized REITs",
+   "GICS Sub-Industry": "Self-Storage REITs"
+ },
+ {
+   "Company Name": "Phillips 66",
+   "Ticker": "PSX",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Oil & Gas Refining & Marketing"
+ },
+ {
+   "Company Name": "Ritchie Bros Auctioneers Inc",
+   "Ticker": "RBA",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Commercial  & Professional Services",
+   "GICS Industry": "Commercial Services & Supplies",
+   "GICS Sub-Industry": "Diversified Support Services"
+ },
+ {
+   "Company Name": "Rogers Communications-CL B",
+   "Ticker": "RCI",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Telecommunication Services",
+   "GICS Industry": "Wireless Telecommunication Services",
+   "GICS Sub-Industry": "Wireless Telecommunication Services"
+ },
+ {
+   "Company Name": "Regions Financial Corp",
+   "Ticker": "RF",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Regional Banks"
+ },
+ {
+   "Company Name": "Raytheon Technologies Corp",
+   "Ticker": "RTX",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Aerospace & Defense",
+   "GICS Sub-Industry": "Aerospace & Defense"
+ },
+ {
+   "Company Name": "SAP SE",
+   "Ticker": "SAP",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "Software",
+   "GICS Sub-Industry": "Application Software"
+ },
+ {
+   "Company Name": "Spirit Airlines Inc",
+   "Ticker": "SAVE",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Transportation",
+   "GICS Industry": "Passenger Airlines",
+   "GICS Sub-Industry": "Passenger Airlines"
+ },
+ {
+   "Company Name": "Charles Schwab",
+   "Ticker": "SCHW",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Investment Banking & Brokerage"
+ },
+ {
+   "Company Name": "SJW Group",
+   "Ticker": "SJW",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Water Utilities",
+   "GICS Sub-Industry": "Water Utilities"
+ },
+ {
+   "Company Name": "Snap-on Inc",
+   "Ticker": "SNA",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Machinery",
+   "GICS Sub-Industry": "Industrial Machinery & Supplies & Components"
+ },
+ {
+   "Company Name": "Snowflake Inc",
+   "Ticker": "SNOW",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "IT Services",
+   "GICS Sub-Industry": "Internet Services & Infrastructure"
+ },
+ {
+   "Company Name": "Southern Co",
+   "Ticker": "SO",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Electric Utilities",
+   "GICS Sub-Industry": "Electric Utilities"
+ },
+ {
+   "Company Name": "SONY Group Corporation",
+   "Ticker": "SONY",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Durables & Apparel",
+   "GICS Industry": "Household Durables",
+   "GICS Sub-Industry": "Consumer Electronics"
+ },
+ {
+   "Company Name": "Spotify Technology SA",
+   "Ticker": "SPOT",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Media & Entertainment",
+   "GICS Industry": "Entertainment",
+   "GICS Sub-Industry": "Movies & Entertainment"
+ },
+ {
+   "Company Name": "Sempra Energy",
+   "Ticker": "SRE",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Multi-Utilities",
+   "GICS Sub-Industry": "Multi-Utilities"
+ },
+ {
+   "Company Name": "Sunoco LP",
+   "Ticker": "SUN",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Oil & Gas Refining & Marketing"
+ },
+ {
+   "Company Name": "Sysco Corp",
+   "Ticker": "SYY",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Consumer Staples Distribution & Retail",
+   "GICS Industry": "Consumer Staples Distribution & Retail",
+   "GICS Sub-Industry": "Food Distributors"
+ },
+ {
+   "Company Name": "AT&T Inc",
+   "Ticker": "T",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Telecommunication Services",
+   "GICS Industry": "Diversified Telecommunication Services",
+   "GICS Sub-Industry": "Integrated Telecommunication Services"
+ },
+ {
+   "Company Name": "TAL Education Group",
+   "Ticker": "TAL",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Diversified Consumer Services",
+   "GICS Sub-Industry": "Education Services"
+ },
+ {
+   "Company Name": "Molson Coors Beverage Co",
+   "Ticker": "TAP",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Beverages",
+   "GICS Sub-Industry": "Brewers"
+ },
+ {
+   "Company Name": "The Container Store Group Inc",
+   "Ticker": "TCS",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Specialty Retail",
+   "GICS Sub-Industry": "Other Specialty Retail"
+ },
+ {
+   "Company Name": "Teva Pharmaceutical Industries Ltd",
+   "Ticker": "TEVA",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Pharmaceuticals",
+   "GICS Sub-Industry": "Pharmaceuticals"
+ },
+ {
+   "Company Name": "Target Corp",
+   "Ticker": "TGT",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Consumer Staples Distribution & Retail",
+   "GICS Industry": "Consumer Staples Distribution & Retail",
+   "GICS Sub-Industry": "Consumer Staples Merchandise Retail"
+ },
+ {
+   "Company Name": "Treehouse Foods Inc",
+   "Ticker": "THS",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Food Products",
+   "GICS Sub-Industry": "Packaged Foods & Meats"
+ },
+ {
+   "Company Name": "TJX Companies Inc",
+   "Ticker": "TJX",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Specialty Retail",
+   "GICS Sub-Industry": "Apparel Retail"
+ },
+ {
+   "Company Name": "Toyota Motor Corp",
+   "Ticker": "TM",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Automobiles & Components",
+   "GICS Industry": "Automobiles",
+   "GICS Sub-Industry": "Automobile Manufacturers"
+ },
+ {
+   "Company Name": "Tootsie Roll Industries Inc",
+   "Ticker": "TR",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Food Products",
+   "GICS Sub-Industry": "Packaged Foods & Meats"
+ },
+ {
+   "Company Name": "TREX Co Inc",
+   "Ticker": "TREX",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Building Products",
+   "GICS Sub-Industry": "Building Products"
+ },
+ {
+   "Company Name": "TC Energy Corp",
+   "Ticker": "TRP",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Oil & Gas Storage & Transportation"
+ },
+ {
+   "Company Name": "Taiwan Semiconductor Manufacturing Co ",
+   "Ticker": "TSM",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Semiconductors & Semiconductor Equipment",
+   "GICS Industry": "Semiconductors & Semiconductor Equipment",
+   "GICS Sub-Industry": "Semiconductors"
+ },
+ {
+   "Company Name": "Tyson Foods Inc",
+   "Ticker": "TSN",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Food Products",
+   "GICS Sub-Industry": "Packaged Foods & Meats"
+ },
+ {
+   "Company Name": "TELUS Corp",
+   "Ticker": "TU",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Telecommunication Services",
+   "GICS Industry": "Diversified Telecommunication Services",
+   "GICS Sub-Industry": "Integrated Telecommunication Services"
+ },
+ {
+   "Company Name": "Titan International Inc",
+   "Ticker": "TWI",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Machinery",
+   "GICS Sub-Industry": "Agricultural & Farm Machinery"
+ },
+ {
+   "Company Name": "Textron Systems",
+   "Ticker": "TXT",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Aerospace & Defense",
+   "GICS Sub-Industry": "Aerospace & Defense"
+ },
+ {
+   "Company Name": "Under Armour Inc",
+   "Ticker": "UA",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Durables & Apparel",
+   "GICS Industry": "Textiles, Apparel & Luxury Goods",
+   "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods"
+ },
+ {
+   "Company Name": "Uber Technologies Inc",
+   "Ticker": "UBER",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Transportation",
+   "GICS Industry": "Ground Transportation",
+   "GICS Sub-Industry": "Passenger Ground Transportation"
+ },
+ {
+   "Company Name": "UBS Group AG",
+   "Ticker": "UBS",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Diversified Capital Markets"
+ },
+ {
+   "Company Name": "UGI Corp",
+   "Ticker": "UGI",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Gas Utilities",
+   "GICS Sub-Industry": "Gas Utilities"
+ },
+ {
+   "Company Name": "Unilever PLC",
+   "Ticker": "UL",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Household & Personal Products",
+   "GICS Industry": "Personal Care Products",
+   "GICS Sub-Industry": "Personal Care Products"
+ },
+ {
+   "Company Name": "United Natural Foods Inc",
+   "Ticker": "UNFI",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Consumer Staples Distribution & Retail",
+   "GICS Industry": "Consumer Staples Distribution & Retail",
+   "GICS Sub-Industry": "Food Distributors"
+ },
+ {
+   "Company Name": "UnitedHealth Group Inc",
+   "Ticker": "UNH",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Health Care Equipment & Services",
+   "GICS Industry": "Health Care Providers & Services",
+   "GICS Sub-Industry": "Managed Health Care"
+ },
+ {
+   "Company Name": "United Parcel Service",
+   "Ticker": "UPS",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Transportation",
+   "GICS Industry": "Air Freight & Logistics",
+   "GICS Sub-Industry": "Air Freight & Logistics"
+ },
+ {
+   "Company Name": "Visa Inc",
+   "Ticker": "V",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": " Financial Services",
+   "GICS Sub-Industry": "Transaction & Payment Processing Services"
+ },
+ {
+   "Company Name": "Veeva Systems Inc",
+   "Ticker": "VEEV",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Health Care Equipment & Services",
+   "GICS Industry": "Health Care Technology",
+   "GICS Sub-Industry": "Health Care Technology"
+ },
+ {
+   "Company Name": "VF Corp",
+   "Ticker": "VFC",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Durables & Apparel",
+   "GICS Industry": "Textiles, Apparel & Luxury Goods",
+   "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods"
+ },
+ {
+   "Company Name": "Verizon Communications Inc",
+   "Ticker": "VZ",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Telecommunication Services",
+   "GICS Industry": "Diversified Telecommunication Services",
+   "GICS Sub-Industry": "Integrated Telecommunication Services"
+ },
+ {
+   "Company Name": "Wells Fargo & Co",
+   "Ticker": "WFC",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "Wyndham Hotels & Resorts Inc",
+   "Ticker": "WH",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Hotels, Resorts & Cruise Lines"
+ },
+ {
+   "Company Name": "Cactus Inc.",
+   "Ticker": "WHD",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Energy Equipment & Services",
+   "GICS Sub-Industry": "Oil & Gas Equipment & Services"
+ },
+ {
+   "Company Name": "Walmart Inc",
+   "Ticker": "WMT",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Consumer Staples Distribution & Retail",
+   "GICS Industry": "Consumer Staples Distribution & Retail",
+   "GICS Sub-Industry": "Consumer Staples Merchandise Retail"
+ },
+ {
+   "Company Name": "Wabash National Corp",
+   "Ticker": "WNC",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Machinery",
+   "GICS Sub-Industry": "Construction Machinery & Heavy Transportation Equipment"
+ },
+ {
+   "Company Name": "Williams-Sonoma Inc",
+   "Ticker": "WSM",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Specialty Retail",
+   "GICS Sub-Industry": "Homefurnishing Retail"
+ },
+ {
+   "Company Name": "United States Steel Corp",
+   "Ticker": "X",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Metals & Mining",
+   "GICS Sub-Industry": "Steel"
+ },
+ {
+   "Company Name": "Exxon Mobil Corp",
+   "Ticker": "XOM",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Integrated Oil & Gas"
+ },
+ {
+   "Company Name": "Xerox Holdings Corp",
+   "Ticker": "XRX",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Technology Hardware & Equipment",
+   "GICS Industry": "Technology Hardware, Storage & Peripherals",
+   "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals"
+ },
+ {
+   "Company Name": "Yum Brands Inc",
+   "Ticker": "YUM",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Restaurants"
+ },
+ {
+   "Company Name": "ZTO Express (Cayman) Inc",
+   "Ticker": "ZTO",
+   "Exchange": "New York Stock Exchange, Inc.",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Transportation",
+   "GICS Industry": "Air Freight & Logistics",
+   "GICS Sub-Industry": "Air Freight & Logistics"
+ },
+ {
+   "Company Name": "China World Trade Center Co Ltd",
+   "Ticker": "600007",
+   "Exchange": "Shanghai Stock Exchange",
+   "GICS Sector": "Real Estate",
+   "GICS Industry Group": "Real Estate Management & Development",
+   "GICS Industry": "Real Estate Management & Development",
+   "GICS Sub-Industry": "Real Estate Operating Companies"
+ },
+ {
+   "Company Name": "Shanghai International Airport Co Ltd",
+   "Ticker": "600009",
+   "Exchange": "Shanghai Stock Exchange",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Transportation",
+   "GICS Industry": "Transportation Infrastructure",
+   "GICS Sub-Industry": "Airport Services"
+ },
+ {
+   "Company Name": "Jiangsu Hengrui Pharmaceuticals Co Ltd",
+   "Ticker": "600276",
+   "Exchange": "Shanghai Stock Exchange",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Pharmaceuticals",
+   "GICS Sub-Industry": "Pharmaceuticals"
+ },
+ {
+   "Company Name": "Kweichow Moutai Co Ltd",
+   "Ticker": "600519",
+   "Exchange": "Shanghai Stock Exchange",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Beverages",
+   "GICS Sub-Industry": "Distillers & Vintners"
+ },
+ {
+   "Company Name": "China Yangtze Power Co Ltd",
+   "Ticker": "600900",
+   "Exchange": "Shanghai Stock Exchange",
+   "GICS Sector": "Utilities",
+   "GICS Industry Group": "Utilities",
+   "GICS Industry": "Independent Power and Renewable Electricity Producers",
+   "GICS Sub-Industry": "Renewable Electricity "
+ },
+ {
+   "Company Name": "China Tourism Group Duty Free Corp Ltd",
+   "Ticker": "601888",
+   "Exchange": "Shanghai Stock Exchange",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Discretionary Distribution & Retail",
+   "GICS Industry": "Specialty Retail",
+   "GICS Sub-Industry": "Other Specialty Retail"
+ },
+ {
+   "Company Name": "Foxconn Industrial Internet Co Ltd",
+   "Ticker": "601138",
+   "Exchange": "Shanghai Stock Exchange",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Technology Hardware & Equipment",
+   "GICS Industry": "Electronic Equipment, Instruments & Components",
+   "GICS Sub-Industry": "Electronic Manufacturing Services"
+ },
+ {
+   "Company Name": "China Vanke Co Ltd",
+   "Ticker": "000002",
+   "Exchange": "Shenzhen Stock Exchange",
+   "GICS Sector": "Real Estate",
+   "GICS Industry Group": "Real Estate Management & Development",
+   "GICS Industry": "Real Estate Management & Development",
+   "GICS Sub-Industry": "Real Estate Development"
+ },
+ {
+   "Company Name": "Midea Group Co Ltd",
+   "Ticker": "000333",
+   "Exchange": "Shenzhen Stock Exchange",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Durables & Apparel",
+   "GICS Industry": "Household Durables",
+   "GICS Sub-Industry": "Household Appliances"
+ },
+ {
+   "Company Name": "Bank Of Ningbo Co Ltd",
+   "Ticker": "002142",
+   "Exchange": "Shenzhen Stock Exchange",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Regional Banks"
+ },
+ {
+   "Company Name": "Hangzhou Hik-Vision Digital Technology Co Ltd",
+   "Ticker": "002415",
+   "Exchange": "Shenzhen Stock Exchange",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Technology Hardware & Equipment",
+   "GICS Industry": "Electronic Equipment, Instruments & Components",
+   "GICS Sub-Industry": "Electronic Equipment & Instruments "
+ },
+ {
+   "Company Name": "Shenzhen Mindray Bio-Medical Electronics Co Ltd",
+   "Ticker": "300760",
+   "Exchange": "Shenzhen Stock Exchange",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Health Care Equipment & Services",
+   "GICS Industry": "Health Care Equipment & Supplies",
+   "GICS Sub-Industry": "Health Care Equipment"
+ },
+ {
+   "Company Name": "Wuliangye Yibin Co Ltd",
+   "Ticker": "000858",
+   "Exchange": "Shenzhen Stock Exchange",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Beverages",
+   "GICS Sub-Industry": "Distillers & Vintners"
+ },
+ {
+   "Company Name": "Nestle SA",
+   "Ticker": "NESN",
+   "Exchange": "SIX Swiss Exchange",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Food, Beverage & Tobacco",
+   "GICS Industry": "Food Products",
+   "GICS Sub-Industry": "Packaged Foods & Meats"
+ },
+ {
+   "Company Name": "Roche Holding AG",
+   "Ticker": "ROG",
+   "Exchange": "SIX Swiss Exchange",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Pharmaceuticals",
+   "GICS Sub-Industry": "Pharmaceuticals"
+ },
+ {
+   "Company Name": "Air Canada",
+   "Ticker": "AC",
+   "Exchange": "Toronto Stock Exchange",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Financial Services",
+   "GICS Industry": "Capital Markets",
+   "GICS Sub-Industry": "Asset Management & Custody Banks"
+ },
+ {
+   "Company Name": "Aurora Cannabis Inc",
+   "Ticker": "ACB",
+   "Exchange": "Toronto Stock Exchange",
+   "GICS Sector": "Health Care",
+   "GICS Industry Group": "Pharmaceuticals, Biotechnology & Life Sciences",
+   "GICS Industry": "Pharmaceuticals",
+   "GICS Sub-Industry": "Pharmaceuticals"
+ },
+ {
+   "Company Name": "Agnico Eagle Mines",
+   "Ticker": "AEM",
+   "Exchange": "Toronto Stock Exchange",
+   "GICS Sector": "Materials",
+   "GICS Industry Group": "Materials",
+   "GICS Industry": "Metals & Mining",
+   "GICS Sub-Industry": "Gold"
+ },
+ {
+   "Company Name": "Bombardier Inc",
+   "Ticker": "BBD.B",
+   "Exchange": "Toronto Stock Exchange",
+   "GICS Sector": "Industrials",
+   "GICS Industry Group": "Capital Goods",
+   "GICS Industry": "Aerospace & Defense",
+   "GICS Sub-Industry": "Aerospace & Defense"
+ },
+ {
+   "Company Name": "BCE Inc",
+   "Ticker": "BCE",
+   "Exchange": "Toronto Stock Exchange",
+   "GICS Sector": "Communication Services",
+   "GICS Industry Group": "Telecommunication Services",
+   "GICS Industry": "Diversified Telecommunication Services",
+   "GICS Sub-Industry": "Integrated Telecommunication Services"
+ },
+ {
+   "Company Name": "Bank of Nova Scotia",
+   "Ticker": "BNS",
+   "Exchange": "Toronto Stock Exchange",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "Boyd Group Services Inc",
+   "Ticker": "BYD",
+   "Exchange": "Toronto Stock Exchange",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Casinos & Gaming"
+ },
+ {
+   "Company Name": "Canadian Natural Resources Ltd",
+   "Ticker": "CNQ",
+   "Exchange": "Toronto Stock Exchange",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Oil & Gas Exploration & Production"
+ },
+ {
+   "Company Name": "Canada Goose Holdings Inc",
+   "Ticker": "GOOS",
+   "Exchange": "Toronto Stock Exchange",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Durables & Apparel",
+   "GICS Industry": "Textiles, Apparel & Luxury Goods",
+   "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods"
+ },
+ {
+   "Company Name": "Open Text Corp",
+   "Ticker": "OTEX",
+   "Exchange": "Toronto Stock Exchange",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "Software",
+   "GICS Sub-Industry": "Application Software"
+ },
+ {
+   "Company Name": "Restaurant Brands International Inc",
+   "Ticker": "QSR",
+   "Exchange": "Toronto Stock Exchange",
+   "GICS Sector": "Consumer Discretionary",
+   "GICS Industry Group": "Consumer Services",
+   "GICS Industry": "Hotels, Restaurants & Leisure",
+   "GICS Sub-Industry": "Restaurants"
+ },
+ {
+   "Company Name": "Royal Bank of Canada",
+   "Ticker": "RY",
+   "Exchange": "Toronto Stock Exchange",
+   "GICS Sector": "Financials",
+   "GICS Industry Group": "Banks",
+   "GICS Industry": "Banks",
+   "GICS Sub-Industry": "Diversified Banks"
+ },
+ {
+   "Company Name": "Shopify Inc",
+   "Ticker": "SHOP",
+   "Exchange": "Toronto Stock Exchange",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "IT Services",
+   "GICS Sub-Industry": "Internet Services & Infrastructure"
+ },
+ {
+   "Company Name": "Suncor Energy Inc",
+   "Ticker": "SU",
+   "Exchange": "Toronto Stock Exchange",
+   "GICS Sector": "Energy",
+   "GICS Industry Group": "Energy",
+   "GICS Industry": "Oil, Gas & Consumable Fuels",
+   "GICS Sub-Industry": "Integrated Oil & Gas"
+ },
+ {
+   "Company Name": "Alimentation Couche-Tard Inc",
+   "Ticker": "ATD",
+   "Exchange": "Toronto Stock Exchange",
+   "GICS Sector": "Consumer Staples",
+   "GICS Industry Group": "Consumer Staples Distribution & Retail",
+   "GICS Industry": "Consumer Staples Distribution & Retail",
+   "GICS Sub-Industry": "Food Retail"
+ },
+ {
+   "Company Name": "Constellation Software Inc",
+   "Ticker": "CSU",
+   "Exchange": "Toronto Stock Exchange",
+   "GICS Sector": "Information Technology",
+   "GICS Industry Group": "Software & Services",
+   "GICS Industry": "Software",
+   "GICS Sub-Industry": "Application Software"
+ }
+]
