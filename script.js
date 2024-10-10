@@ -1,249 +1,127 @@
-// Initialize arrays to hold stock and ETF data
-let stockData = []; 
-let etfData = []; 
+// Function to fetch data from JSON files
+async function fetchData() {
+    try {
+        const stocksResponse = await fetch('stocks.json'); // Replace with the correct path to your JSON file
+        const etfsResponse = await fetch('etfs.json');     // Replace with the correct path to your JSON file
 
-// Fetch stock data from the JSON file
-fetch('stocks.json')
-    .then(response => {
-        if (!response.ok) {
+        if (!stocksResponse.ok || !etfsResponse.ok) {
             throw new Error('Network response was not ok');
         }
-        return response.json();
-    })
-    .then(data => {
-        stockData = data;
-        console.log('Stock Data:', stockData); // Log the fetched data
-    })
-    .catch(error => console.error('Error loading stock data:', error));
 
-// Fetch ETF data from the JSON file
-fetch('etfs.json') // Ensure you have an 'etfs.json' file
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
-        return response.json();
-    })
-    .then(data => {
-        etfData = data; // Assign fetched data to etfData
-        console.log('ETF Data:', etfData); // Log the fetched ETF data
-    })
-    .catch(error => console.error('Error loading ETF data:', error));
+        const stocksData = await stocksResponse.json();
+        const etfsData = await etfsResponse.json();
 
-// Function to open the tab
-function openTab(evt, tabName) {
-    // Declare all variables
-    var i, tabcontent, tablinks;
-
-    // Get all tabcontent elements and hide them
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
+        displayStocks(stocksData);
+        displayETFs(etfsData);
+    } catch (error) {
+        console.error('There has been a problem with your fetch operation:', error);
     }
+}
 
-    // Get all tablinks and remove the active class
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
+// Open Tab Function
+function openTab(evt, tabName) {
+    let tabcontent = document.getElementsByClassName("tabcontent");
+    for (let i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";  
+    }
+    let tablinks = document.getElementsByClassName("tablink");
+    for (let i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
-
-    // Show the current tab and add an "active" class to the button that opened the tab
-    document.getElementById(tabName).style.display = "block";
+    document.getElementById(tabName).style.display = "block";  
     evt.currentTarget.className += " active";
 }
 
-// Wait until the DOM is fully loaded
-document.addEventListener('DOMContentLoaded', (event) => {
-    // Attach event listeners to buttons
-    document.getElementById('stockTab').onclick = function(event) { openTab(event, 'Stocks'); };
-document.getElementById('etfTab').onclick = function(event) { openTab(event, 'ETFs'); };
-    document.getElementById('filterBtn').onclick = filterStocks;
-    document.getElementById('downloadBtn').onclick = downloadCSV;
-    document.getElementById('etfFilterBtn').onclick = filterETFs; // ETF filter button
-    document.getElementById('etfDownloadBtn').onclick = downloadETFCsv; // ETF download button
-});
-
-// Filter stocks function
+// Filter Function for Stocks
 function filterStocks() {
-    console.log("filterStocks function called");
-    const filters = {
-        companyName: document.getElementById("company-name").value.toLowerCase(),
-        ticker: document.getElementById("ticker").value.toLowerCase(),
-        exchange: document.getElementById("exchange").value.toLowerCase(),
-        gicsSector: document.getElementById("gics-sector").value.toLowerCase(),
-        gicsIndustryGroup: document.getElementById("gics-industry-group").value.toLowerCase(),
-        gicsIndustry: document.getElementById("gics-industry").value.toLowerCase(),
-        gicsSubIndustry: document.getElementById("gics-sub-industry").value.toLowerCase(),
-    };
-
-    const tableBody = document.querySelector("#stockTable tbody");
-    tableBody.innerHTML = ""; // Clear existing rows
-
-    console.log("Filtering stocks...");
-    console.log("Total stocks before filtering:", stockData.length); // Log total stocks
-
-    // Define key mappings
-    const keyMap = {
-        companyName: "Company Name",
-        ticker: "Ticker",
-        exchange: "Exchange",
-        gicsSector: "GICS Sector",
-        gicsIndustryGroup: "GICS Industry Group",
-        gicsIndustry: "GICS Industry",
-        gicsSubIndustry: "GICS Sub-Industry",
-    };
-
-    stockData.forEach((row, index) => {
-        console.log('Row Data:', row); // Log each row
-
-        const isMatch = Object.keys(filters).every(key => {
-            const matchValue = row[keyMap[key]]?.toLowerCase().includes(filters[key]);
-            return filters[key] === '' || matchValue;
-        });
-
-        if (isMatch) {
-            console.log("Match found:", row); // Log matches
-            const newRow = document.createElement("tr");
-            newRow.innerHTML = `
-                <td>${index + 1}</td>
-                <td>${row["Company Name"]}</td>
-                <td>${row.Ticker}</td>
-                <td>${row.Exchange}</td>
-                <td>${row["GICS Sector"]}</td>
-                <td>${row["GICS Industry Group"]}</td>
-                <td>${row["GICS Industry"]}</td>
-                <td>${row["GICS Sub-Industry"]}</td>
-            `;
-            tableBody.appendChild(newRow);
-        }
-    });
-
-    console.log("Filtered stocks count:", tableBody.children.length); // Log count of rows added
-}
-
-// Download filtered stocks as CSV
-function downloadCSV() {
-    const filename = document.getElementById('filename').value.trim() || 'filtered_stocks'; 
-    const rows = document.querySelectorAll("#stockTable tbody tr");
+    const companyName = document.getElementById("company-name").value.toLowerCase();
+    const ticker = document.getElementById("ticker").value.toLowerCase();
+    const exchange = document.getElementById("exchange").value.toLowerCase();
     
-    console.log("Rows to download:", rows.length);
+    const filteredStocks = stocksData.filter(stock => 
+        (companyName === "" || stock.company.toLowerCase().includes(companyName)) &&
+        (ticker === "" || stock.ticker.toLowerCase().includes(ticker)) &&
+        (exchange === "" || stock.exchange.toLowerCase().includes(exchange))
+    );
 
-    const csvData = [];
-    const headers = ["Row", "Company Name", "Ticker", "Exchange", "GICS Sector", "GICS Industry Group", "GICS Industry", "GICS Sub-Industry"];
-    csvData.push(headers.join(',')); // Add headers to CSV
-
-    rows.forEach((row) => {
-        const rowData = [];
-        row.querySelectorAll("td").forEach(cell => {
-            rowData.push(cell.innerText);
-        });
-        csvData.push(rowData.join(',')); // Add row data to CSV
-    });
-
-    downloadBlob(csvData.join('\n'), `${filename}.csv`);
+    displayStocks(filteredStocks);
 }
 
-// Filter ETFs function
+// Display Function for Stocks
+function displayStocks(data) {
+    const stocksTable = document.getElementById("stocks-table");
+    stocksTable.innerHTML = "";
+
+    data.forEach(stock => {
+        const row = stocksTable.insertRow();
+        row.insertCell(0).innerText = stock.company;
+        row.insertCell(1).innerText = stock.ticker;
+        row.insertCell(2).innerText = stock.exchange;
+        row.insertCell(3).innerText = stock.price;
+    });
+}
+
+// Filter Function for ETFs
 function filterETFs() {
-    console.log("filterETFs function called");
-    const filters = {
-        etfName: document.getElementById("etf-name").value.toLowerCase(),
-        etfTicker: document.getElementById("etf-ticker").value.toLowerCase(),
-        assetClass: document.getElementById("asset-class").value.toLowerCase(),
-        marketCap: document.getElementById("market-cap").value.toLowerCase(),
-        strategy: document.getElementById("strategy").value.toLowerCase(),
-        industryFocus: document.getElementById("industry-focus").value.toLowerCase(),
-        geoFocus: document.getElementById("geo-focus").value.toLowerCase(),
-        activelyManaged: document.getElementById("actively-managed").value.toLowerCase(),
-        maturityBand: document.getElementById("maturity-band").value.toLowerCase(), // Add maturity band filter if needed
-        fundRating: document.getElementById("fund-rating").value.toLowerCase(), // Add fund rating class filter if needed
-        expenseRatio: document.getElementById("expense-ratio").value.toLowerCase() // Add expense ratio filter if needed
-    };
-
-    const etfTableBody = document.querySelector("#etfTable tbody");
-    etfTableBody.innerHTML = ""; // Clear existing rows
-
-    console.log("Filtering ETFs...");
-    console.log("Total ETFs before filtering:", etfData.length); // Log total ETFs
-
-    // Define key mappings
-    const etfKeyMap = {
-        etfName: "Name",
-        etfTicker: "Ticker",
-        assetClass: "Fund Asset Class Focus",
-        marketCap: "Fund Market Cap Focus",
-        strategy: "Strategy",
-        industryFocus: "Fund Industry Focus",
-        geoFocus: "Fund Geographical Focus",
-        activelyManaged: "Actively Managed?",
-        maturityBand: "Maturity Band",
-        fundRating: "Fund Rating Class Focus",
-        expenseRatio: "Expense Ratio"
-    };
-
-    etfData.forEach((row, index) => {
-        console.log('ETF Row Data:', row); // Log each ETF row
-
-        const isMatch = Object.keys(filters).every(key => {
-            const matchValue = row[etfKeyMap[key]]?.toString().toLowerCase().includes(filters[key]);
-            return filters[key] === '' || matchValue;
-        });
-
-        if (isMatch) {
-            console.log("ETF Match found:", row); // Log ETF matches
-            const newRow = document.createElement("tr");
-            newRow.innerHTML = `
-                <td>${index + 1}</td>
-                <td>${row["Name"]}</td>
-                <td>${row.Ticker}</td>
-                <td>${row["Fund Asset Class Focus"]}</td>
-                <td>${row["Fund Market Cap Focus"]}</td>
-                <td>${row.Strategy}</td>
-                <td>${row["Fund Industry Focus"]}</td>
-                <td>${row["Fund Geographical Focus"]}</td>
-                <td>${row["Maturity Band"]}</td>
-                <td>${row["Fund Rating Class Focus"]}</td>
-                <td>${row["Expense Ratio"]}</td>
-                <td>${row["Actively Managed?"]}</td>
-            `;
-            etfTableBody.appendChild(newRow);
-        }
-    });
-
-    console.log("Filtered ETFs count:", etfTableBody.children.length); // Log count of rows added
-}
-
-// Download filtered ETFs as CSV
-function downloadETFCsv() {
-    const filename = document.getElementById('etf-filename').value.trim() || 'filtered_etfs'; 
-    const rows = document.querySelectorAll("#etfTable tbody tr");
+    const etfName = document.getElementById("etf-name").value.toLowerCase();
+    const etfTicker = document.getElementById("etf-ticker").value.toLowerCase();
     
-    console.log("Rows to download:", rows.length);
+    const filteredETFs = etfsData.filter(etf => 
+        (etfName === "" || etf.name.toLowerCase().includes(etfName)) &&
+        (etfTicker === "" || etf.ticker.toLowerCase().includes(etfTicker))
+    );
 
-    const csvData = [];
-    const headers = ["Row", "Name", "Ticker", "Fund Asset Class Focus", "Fund Market Cap Focus", "Strategy", "Fund Industry Focus", "Fund Geographical Focus", "Actively Managed?"];
-    csvData.push(headers.join(',')); // Add headers to CSV
+    displayETFs(filteredETFs);
+}
 
-    rows.forEach((row) => {
-        const rowData = [];
-        row.querySelectorAll("td").forEach(cell => {
-            rowData.push(cell.innerText);
-        });
-        csvData.push(rowData.join(',')); // Add row data to CSV
+// Display Function for ETFs
+function displayETFs(data) {
+    const etfsTable = document.getElementById("etfs-table");
+    etfsTable.innerHTML = "";
+
+    data.forEach(etf => {
+        const row = etfsTable.insertRow();
+        row.insertCell(0).innerText = etf.name;
+        row.insertCell(1).innerText = etf.ticker;
+        row.insertCell(2).innerText = etf.expenseRatio;
+        row.insertCell(3).innerText = etf.price;
     });
-
-    downloadBlob(csvData.join('\n'), `${filename}.csv`);
 }
 
-// Helper function to download CSV files
-function downloadBlob(data, filename) {
-    const blob = new Blob([data], { type: 'text/csv' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = filename; // Use the provided filename
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url); // Clean up
+// Download Function for Stocks
+function downloadStocks() {
+    const csvContent = "data:text/csv;charset=utf-8," + 
+        stocksData.map(stock => 
+            `${stock.company},${stock.ticker},${stock.exchange},${stock.price}`
+        ).join("\n");
+
+    const encodedUri = encodeURI(csvContent);
+    const link = document.createElement("a");
+    link.setAttribute("href", encodedUri);
+    link.setAttribute("download", "stocks_data.csv");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
 }
+
+// Download Function for ETFs
+function downloadETFs() {
+    const csvContent = "data:text/csv;charset=utf-8," + 
+        etfsData.map(etf => 
+            `${etf.name},${etf.ticker},${etf.expenseRatio},${etf.price}`
+        ).join("\n");
+
+    const encodedUri = encodeURI(csvContent);
+    const link = document.createElement("a");
+    link.setAttribute("href", encodedUri);
+    link.setAttribute("download", "etfs_data.csv");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
+// Initialize Tab and Fetch Data
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementsByClassName("tablink")[0].click(); // Click on the first tab to open it
+    fetchData(); // Fetch data when the document is loaded
+});
