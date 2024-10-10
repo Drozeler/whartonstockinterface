@@ -78,24 +78,23 @@ function filterETFs() {
 }
 
 // Render Function for ETFs
-function renderETFTable(data) {
-    const etfsTable = document.getElementById("etfs-table");
-    etfsTable.innerHTML = "";
+function renderETFs(data) {
+    const etfsTable = document.getElementById("etfTable").getElementsByTagName('tbody')[0];
+    etfsTable.innerHTML = ""; // Clear existing data
 
-    data.forEach(etf => {
+    data.forEach((etf, index) => {
         const row = etfsTable.insertRow();
-        row.insertCell(0).innerText = etf.ticker;
+        row.insertCell(0).innerText = index + 1; // Row number
         row.insertCell(1).innerText = etf.name;
-        row.insertCell(2).innerText = etf["Fund Asset Class Focus"];
-        row.insertCell(3).innerText = etf["Fund Market Cap Focus"];
-        row.insertCell(4).innerText = etf.strategy; // Adjusted property name based on your data structure
-        row.insertCell(5).innerText = etf["Fund Industry Focus"];
-        row.insertCell(6).innerText = etf["Fund Geographical Focus"];
-        row.insertCell(7).innerText = etf["Maturity Band"] || 'N/A';
-        row.insertCell(8).innerText = etf["Fund Rating Class Focus"] || 'N/A';
-        row.insertCell(9).innerText = etf["Expense Ratio"] || 'N/A';
-        row.insertCell(10).innerText = etf["Actively Managed?"] || 'N/A';
-        row.insertCell(11).innerText = etf.filename || 'N/A'; // Assuming you have this field in your JSON
+        row.insertCell(2).innerText = etf.ticker;
+        row.insertCell(3).innerText = etf.assetClass; // Update this according to your actual data field names
+        row.insertCell(4).innerText = etf.marketCap; // Update this according to your actual data field names
+        row.insertCell(5).innerText = etf.strategy;
+        row.insertCell(6).innerText = etf.industryFocus; // Update this according to your actual data field names
+        row.insertCell(7).innerText = etf.geographicalFocus; // Update this according to your actual data field names
+        row.insertCell(8).innerText = etf.maturityBand; // Update this according to your actual data field names
+        row.insertCell(9).innerText = etf.expenseRatio; 
+        row.insertCell(10).innerText = etf.activelyManaged ? "Yes" : "No"; // Assuming it's a boolean
     });
 }
 
