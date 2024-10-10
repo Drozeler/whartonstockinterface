@@ -1,3 +1,6 @@
+let stocks = [];
+let etfs = [];
+
 // Function to fetch data from JSON files
 async function fetchData() {
     try {
