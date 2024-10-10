@@ -30,9 +30,33 @@ fetch('etfs.json') // Ensure you have an 'etfs.json' file
     })
     .catch(error => console.error('Error loading ETF data:', error));
 
+// Function to open the tab
+function openTab(evt, tabName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all tabcontent elements and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all tablinks and remove the active class
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab and add an "active" class to the button that opened the tab
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
 // Wait until the DOM is fully loaded
 document.addEventListener('DOMContentLoaded', (event) => {
     // Attach event listeners to buttons
+    document.getElementById('stockTab').onclick = function(event) { openTab(event, 'Stocks'); };
+document.getElementById('etfTab').onclick = function(event) { openTab(event, 'ETFs'); };
     document.getElementById('filterBtn').onclick = filterStocks;
     document.getElementById('downloadBtn').onclick = downloadCSV;
     document.getElementById('etfFilterBtn').onclick = filterETFs; // ETF filter button
@@ -58,11 +82,22 @@ function filterStocks() {
     console.log("Filtering stocks...");
     console.log("Total stocks before filtering:", stockData.length); // Log total stocks
 
+    // Define key mappings
+    const keyMap = {
+        companyName: "Company Name",
+        ticker: "Ticker",
+        exchange: "Exchange",
+        gicsSector: "GICS Sector",
+        gicsIndustryGroup: "GICS Industry Group",
+        gicsIndustry: "GICS Industry",
+        gicsSubIndustry: "GICS Sub-Industry",
+    };
+
     stockData.forEach((row, index) => {
         console.log('Row Data:', row); // Log each row
 
         const isMatch = Object.keys(filters).every(key => {
-            const matchValue = row[key === 'companyName' ? "Company Name" : key.charAt(0).toUpperCase() + key.slice(1)]?.toLowerCase().includes(filters[key]);
+            const matchValue = row[keyMap[key]]?.toLowerCase().includes(filters[key]);
             return filters[key] === '' || matchValue;
         });
 
@@ -109,6 +144,7 @@ function downloadCSV() {
 }
 
 // Filter ETFs function
+// Filter ETFs function
 function filterETFs() {
     console.log("filterETFs function called");
     const filters = {
@@ -128,11 +164,23 @@ function filterETFs() {
     console.log("Filtering ETFs...");
     console.log("Total ETFs before filtering:", etfData.length); // Log total ETFs
 
+    // Define key mappings
+    const etfKeyMap = {
+        etfName: "Name",
+        etfTicker: "Ticker",
+        assetClass: "Fund Asset Class Focus",
+        marketCap: "Fund Market Cap Focus",
+        strategy: "Strategy",
+        industryFocus: "Fund Industry Focus",
+        geoFocus: "Fund Geographical Focus",
+        activelyManaged: "Actively Managed?",
+    };
+
     etfData.forEach((row, index) => {
         console.log('ETF Row Data:', row); // Log each ETF row
 
         const isMatch = Object.keys(filters).every(key => {
-            const matchValue = row[key === 'etfName' ? "Name" : key.charAt(0).toUpperCase() + key.slice(1)]?.toLowerCase().includes(filters[key]);
+            const matchValue = row[etfKeyMap[key]]?.toLowerCase().includes(filters[key]);
             return filters[key] === '' || matchValue;
         });
 
