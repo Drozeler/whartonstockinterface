@@ -15,7 +15,7 @@ async function fetchData() {
         const etfsData = await etfsResponse.json();
 
         displayStocks(stocksData);
-        displayETFs(etfsData);
+        renderETFTable(etfsData);  // Use the render function for ETFs
     } catch (error) {
         console.error('There has been a problem with your fetch operation:', error);
     }
@@ -41,7 +41,7 @@ function filterStocks() {
     const ticker = document.getElementById("ticker").value.toLowerCase();
     const exchange = document.getElementById("exchange").value.toLowerCase();
     
-    const filteredStocks = stocksData.filter(stock => 
+    const filteredStocks = stocks.filter(stock =>  // Use stocks array here
         (companyName === "" || stock.company.toLowerCase().includes(companyName)) &&
         (ticker === "" || stock.ticker.toLowerCase().includes(ticker)) &&
         (exchange === "" || stock.exchange.toLowerCase().includes(exchange))
@@ -69,32 +69,40 @@ function filterETFs() {
     const etfName = document.getElementById("etf-name").value.toLowerCase();
     const etfTicker = document.getElementById("etf-ticker").value.toLowerCase();
     
-    const filteredETFs = etfsData.filter(etf => 
+    const filteredETFs = etfs.filter(etf =>  // Use etfs array here
         (etfName === "" || etf.name.toLowerCase().includes(etfName)) &&
         (etfTicker === "" || etf.ticker.toLowerCase().includes(etfTicker))
     );
 
-    displayETFs(filteredETFs);
+    renderETFTable(filteredETFs);  // Use the new render function for filtered ETFs
 }
 
-// Display Function for ETFs
-function displayETFs(data) {
+// Render Function for ETFs
+function renderETFTable(data) {
     const etfsTable = document.getElementById("etfs-table");
     etfsTable.innerHTML = "";
 
     data.forEach(etf => {
         const row = etfsTable.insertRow();
-        row.insertCell(0).innerText = etf.name;
-        row.insertCell(1).innerText = etf.ticker;
-        row.insertCell(2).innerText = etf.expenseRatio;
-        row.insertCell(3).innerText = etf.price;
+        row.insertCell(0).innerText = etf.ticker;
+        row.insertCell(1).innerText = etf.name;
+        row.insertCell(2).innerText = etf["Fund Asset Class Focus"];
+        row.insertCell(3).innerText = etf["Fund Market Cap Focus"];
+        row.insertCell(4).innerText = etf.strategy; // Adjusted property name based on your data structure
+        row.insertCell(5).innerText = etf["Fund Industry Focus"];
+        row.insertCell(6).innerText = etf["Fund Geographical Focus"];
+        row.insertCell(7).innerText = etf["Maturity Band"] || 'N/A';
+        row.insertCell(8).innerText = etf["Fund Rating Class Focus"] || 'N/A';
+        row.insertCell(9).innerText = etf["Expense Ratio"] || 'N/A';
+        row.insertCell(10).innerText = etf["Actively Managed?"] || 'N/A';
+        row.insertCell(11).innerText = etf.filename || 'N/A'; // Assuming you have this field in your JSON
     });
 }
 
 // Download Function for Stocks
 function downloadStocks() {
     const csvContent = "data:text/csv;charset=utf-8," + 
-        stocksData.map(stock => 
+        stocks.map(stock => 
             `${stock.company},${stock.ticker},${stock.exchange},${stock.price}`
         ).join("\n");
 
@@ -110,8 +118,8 @@ function downloadStocks() {
 // Download Function for ETFs
 function downloadETFs() {
     const csvContent = "data:text/csv;charset=utf-8," + 
-        etfsData.map(etf => 
-            `${etf.name},${etf.ticker},${etf.expenseRatio},${etf.price}`
+        etfs.map(etf => 
+            `${etf.name},${etf.ticker},${etf["Fund Asset Class Focus"]},${etf["Expense Ratio"]}` // Adjust based on your structure
         ).join("\n");
 
     const encodedUri = encodeURI(csvContent);
