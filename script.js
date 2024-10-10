@@ -144,7 +144,6 @@ function downloadCSV() {
 }
 
 // Filter ETFs function
-// Filter ETFs function
 function filterETFs() {
     console.log("filterETFs function called");
     const filters = {
@@ -156,6 +155,9 @@ function filterETFs() {
         industryFocus: document.getElementById("industry-focus").value.toLowerCase(),
         geoFocus: document.getElementById("geo-focus").value.toLowerCase(),
         activelyManaged: document.getElementById("actively-managed").value.toLowerCase(),
+        maturityBand: document.getElementById("maturity-band").value.toLowerCase(), // Add maturity band filter if needed
+        fundRating: document.getElementById("fund-rating").value.toLowerCase(), // Add fund rating class filter if needed
+        expenseRatio: document.getElementById("expense-ratio").value.toLowerCase() // Add expense ratio filter if needed
     };
 
     const etfTableBody = document.querySelector("#etfTable tbody");
@@ -174,13 +176,16 @@ function filterETFs() {
         industryFocus: "Fund Industry Focus",
         geoFocus: "Fund Geographical Focus",
         activelyManaged: "Actively Managed?",
+        maturityBand: "Maturity Band",
+        fundRating: "Fund Rating Class Focus",
+        expenseRatio: "Expense Ratio"
     };
 
     etfData.forEach((row, index) => {
         console.log('ETF Row Data:', row); // Log each ETF row
 
         const isMatch = Object.keys(filters).every(key => {
-            const matchValue = row[etfKeyMap[key]]?.toLowerCase().includes(filters[key]);
+            const matchValue = row[etfKeyMap[key]]?.toString().toLowerCase().includes(filters[key]);
             return filters[key] === '' || matchValue;
         });
 
@@ -196,6 +201,9 @@ function filterETFs() {
                 <td>${row.Strategy}</td>
                 <td>${row["Fund Industry Focus"]}</td>
                 <td>${row["Fund Geographical Focus"]}</td>
+                <td>${row["Maturity Band"]}</td>
+                <td>${row["Fund Rating Class Focus"]}</td>
+                <td>${row["Expense Ratio"]}</td>
                 <td>${row["Actively Managed?"]}</td>
             `;
             etfTableBody.appendChild(newRow);
