@@ -8,54 +8,107 @@
 </head>
 <body>
     <div class="container">
-        <h1>Stock List Filter</h1>
-        
-        <div class="filter-section">
-            <label for="company-name">Company Name:</label>
-            <input type="text" id="company-name" placeholder="Enter Company Name">
-            
-            <label for="ticker">Ticker:</label>
-            <input type="text" id="ticker" placeholder="Enter Ticker">
-            
-            <label for="exchange">Exchange:</label>
-            <input type="text" id="exchange" placeholder="Enter Exchange">
-            
-            <label for="gics-sector">GICS Sector:</label>
-            <input type="text" id="gics-sector" placeholder="Enter GICS Sector">
-            
-            <label for="gics-industry-group">GICS Industry Group:</label>
-            <input type="text" id="gics-industry-group" placeholder="Enter Industry Group">
-            
-            <label for="gics-industry">GICS Industry:</label>
-            <input type="text" id="gics-industry" placeholder="Enter Industry">
-            
-            <label for="gics-sub-industry">GICS Sub-Industry:</label>
-            <input type="text" id="gics-sub-industry" placeholder="Enter Sub-Industry">
-            <label for="filename">Filename:</label>
-    <input type="text" id="filename" placeholder="Enter filename of your downloaded CSV">
-            
-            <button id="filterBtn">Filter Stocks</button>
-            <button id="downloadBtn">Download CSV</button>
+        <div class="tabs">
+            <button class="tablink" onclick="openTab(event, 'stocksTab')">Stock List Filter</button>
+            <button class="tablink" onclick="openTab(event, 'etfsTab')">ETF List Filter</button>
         </div>
 
-        <table id="stockTable">
-            <thead>
-                <tr>
-                    <th>Row</th>
-                    <th>Company Name</th>
-                    <th>Ticker</th>
-                    <th>Exchange</th>
-                    <th>GICS Sector</th>
-                    <th>GICS Industry Group</th>
-                    <th>GICS Industry</th>
-                    <th>GICS Sub-Industry</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Filtered stock data will be populated here -->
-            </tbody>
-        </table>
+        <!-- Stocks Filter Tab -->
+        <div id="stocksTab" class="tabcontent">
+            <h1>Stock List Filter</h1>
+            <div class="filter-section">
+                <label for="company-name">Company Name:</label>
+                <input type="text" id="company-name" placeholder="Enter Company Name">
+                
+                <label for="ticker">Ticker:</label>
+                <input type="text" id="ticker" placeholder="Enter Ticker">
+                
+                <label for="exchange">Exchange:</label>
+                <input type="text" id="exchange" placeholder="Enter Exchange">
+                
+                <label for="gics-sector">GICS Sector:</label>
+                <input type="text" id="gics-sector" placeholder="Enter GICS Sector">
+                
+                <label for="gics-industry-group">GICS Industry Group:</label>
+                <input type="text" id="gics-industry-group" placeholder="Enter Industry Group">
+                
+                <label for="gics-industry">GICS Industry:</label>
+                <input type="text" id="gics-industry" placeholder="Enter Industry">
+                
+                <label for="gics-sub-industry">GICS Sub-Industry:</label>
+                <input type="text" id="gics-sub-industry" placeholder="Enter Sub-Industry">
+                
+                <label for="filename">Filename:</label>
+                <input type="text" id="filename" placeholder="Enter filename of your downloaded CSV">
+                
+                <button id="filterBtn">Filter Stocks</button>
+                <button id="downloadBtn">Download CSV</button>
+            </div>
+
+            <table id="stockTable">
+                <thead>
+                    <tr>
+                        <th>Row</th>
+                        <th>Company Name</th>
+                        <th>Ticker</th>
+                        <th>Exchange</th>
+                        <th>GICS Sector</th>
+                        <th>GICS Industry Group</th>
+                        <th>GICS Industry</th>
+                        <th>GICS Sub-Industry</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Filtered stock data will be populated here -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- ETFs Filter Tab -->
+        <div id="etfsTab" class="tabcontent" style="display:none;">
+            <h1>ETF List Filter</h1>
+            <div class="filter-section">
+                <label for="etf-name">ETF Name:</label>
+                <input type="text" id="etf-name" placeholder="Enter ETF Name">
+                
+                <label for="etf-ticker">Ticker:</label>
+                <input type="text" id="etf-ticker" placeholder="Enter ETF Ticker">
+                
+                <label for="etf-asset-class">Fund Asset Class Focus:</label>
+                <input type="text" id="etf-asset-class" placeholder="Enter Asset Class">
+                
+                <label for="etf-strategy">Strategy:</label>
+                <input type="text" id="etf-strategy" placeholder="Enter Strategy (e.g., Growth, Blend)">
+                
+                <label for="etf-geographical-focus">Geographical Focus:</label>
+                <input type="text" id="etf-geographical-focus" placeholder="Enter Geographical Focus">
+                
+                <label for="etf-expense-ratio">Max Expense Ratio:</label>
+                <input type="number" id="etf-expense-ratio" step="0.01" placeholder="Enter Max Expense Ratio">
+                
+                <button id="filterEtfBtn">Filter ETFs</button>
+                <button id="downloadEtfBtn">Download CSV</button>
+            </div>
+
+            <table id="etfTable">
+                <thead>
+                    <tr>
+                        <th>Row</th>
+                        <th>Name</th>
+                        <th>Ticker</th>
+                        <th>Fund Asset Class Focus</th>
+                        <th>Strategy</th>
+                        <th>Fund Geographical Focus</th>
+                        <th>Expense Ratio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Filtered ETF data will be populated here -->
+                </tbody>
+            </table>
+        </div>
     </div>
+    
     <script src="script.js"></script> <!-- Link your JavaScript -->
 </body>
 </html>
