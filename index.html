@@ -1,147 +1,134 @@
-let stocks = [];
-let etfs = [];
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wharton Data Filter Interface</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link your CSS -->
+</head>
+<body>
+    <div class="container">
+        <div class="tabs">
+            <button class="tablink" onclick="openTab(event, 'stocksTab')">Stock List Filter</button>
+            <button class="tablink" onclick="openTab(event, 'etfsTab')">ETF List Filter</button>
+        </div>
 
-// Function to fetch data from JSON files
-async function fetchData() {
-    try {
-        const stocksResponse = await fetch('stocks.json'); // Replace with the correct path to your JSON file
-        const etfsResponse = await fetch('etfs.json');     // Replace with the correct path to your JSON file
+        <!-- Stocks Filter Tab -->
+        <div id="stocksTab" class="tabcontent">
+            <h1>Stock List Filter</h1>
+            <div class="filter-section">
+                <label for="company-name">Company Name:</label>
+                <input type="text" id="company-name" placeholder="Enter Company Name">
 
-        if (!stocksResponse.ok || !etfsResponse.ok) {
-            throw new Error('Network response was not ok');
-        }
+                <label for="ticker">Ticker:</label>
+                <input type="text" id="ticker" placeholder="Enter Ticker">
 
-        const stocksData = await stocksResponse.json();
-        const etfsData = await etfsResponse.json();
+                <label for="exchange">Exchange:</label>
+                <input type="text" id="exchange" placeholder="Enter Exchange">
 
-        stocks = stocksData; // Store stocks data
-        etfs = etfsData;     // Store ETFs data
+                <label for="gics-sector">GICS Sector:</label>
+                <input type="text" id="gics-sector" placeholder="Enter GICS Sector">
 
-        displayStocks(stocks);  // Display all stocks initially
-        renderETFs(etfs);       // Use the render function for ETFs
-    } catch (error) {
-        console.error('There has been a problem with your fetch operation:', error);
-    }
-}
+                <label for="gics-industry-group">GICS Industry Group:</label>
+                <input type="text" id="gics-industry-group" placeholder="Enter Industry Group">
 
-// Open Tab Function
-function openTab(evt, tabName) {
-    let tabcontent = document.getElementsByClassName("tabcontent");
-    for (let i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";  
-    }
-    let tablinks = document.getElementsByClassName("tablink");
-    for (let i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(tabName).style.display = "block";  
-    evt.currentTarget.className += " active";
-}
+                <label for="gics-industry">GICS Industry:</label>
+                <input type="text" id="gics-industry" placeholder="Enter Industry">
 
-// Filter Function for Stocks
-function filterStocks() {
-    const companyName = document.getElementById("company-name").value.toLowerCase();
-    const ticker = document.getElementById("ticker").value.toLowerCase();
-    const exchange = document.getElementById("exchange").value.toLowerCase();
+                <label for="gics-sub-industry">GICS Sub-Industry:</label>
+                <input type="text" id="gics-sub-industry" placeholder="Enter Sub-Industry">
+
+                <label for="filename">Filename:</label>
+                <input type="text" id="filename" placeholder="Enter filename of your downloaded CSV">
+
+                <button id="filterBtn" onclick="filterStocks()">Filter Stocks</button>
+                <button id="downloadBtn" onclick="downloadStocks()">Download CSV</button>
+            </div>
+
+            <table id="stockTable">
+                <thead>
+                    <tr>
+                        <th>Row</th>
+                        <th>Company Name</th>
+                        <th>Ticker</th>
+                        <th>Exchange</th>
+                        <th>Price</th>
+                        <th>GICS Sector</th>
+                        <th>GICS Industry Group</th>
+                        <th>GICS Industry</th>
+                        <th>GICS Sub-Industry</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Filtered stock data will be populated here -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- ETFs Filter Tab -->
+        <div id="etfsTab" class="tabcontent" style="display:none;">
+            <h1>ETF List Filter</h1>
+            <div class="filter-section">
+                <label for="etf-name">ETF Name:</label>
+                <input type="text" id="etf-name" placeholder="Enter ETF Name">
+
+                <label for="etf-ticker">Ticker:</label>
+                <input type="text" id="etf-ticker" placeholder="Enter ETF Ticker">
+
+                <label for="etf-asset-class">Fund Asset Class Focus:</label>
+                <input type="text" id="etf-asset-class" placeholder="Enter Asset Class">
+
+                <label for="etf-market-cap">Fund Market Cap Focus:</label>
+                <input type="text" id="etf-market-cap" placeholder="Enter Market Cap Focus">
+
+                <label for="etf-strategy">Strategy:</label>
+                <input type="text" id="etf-strategy" placeholder="Enter Strategy (e.g., Growth, Blend)">
+
+                <label for="etf-industry-focus">Fund Industry Focus:</label>
+                <input type="text" id="etf-industry-focus" placeholder="Enter Industry Focus">
+
+                <label for="etf-geographical-focus">Geographical Focus:</label>
+                <input type="text" id="etf-geographical-focus" placeholder="Enter Geographical Focus">
+
+                <label for="etf-maturity-band">Maturity Band:</label>
+                <input type="text" id="etf-maturity-band" placeholder="Enter Maturity Band">
+
+                <label for="etf-expense-ratio">Max Expense Ratio:</label>
+                <input type="number" id="etf-expense-ratio" step="0.01" placeholder="Enter Max Expense Ratio">
+
+                <label for="etf-actively-managed">Actively Managed?</label>
+                <input type="text" id="etf-actively-managed" placeholder="Yes/No">
+
+                <label for="etf-filename">Filename:</label>
+                <input type="text" id="etf-filename" placeholder="Enter filename of your downloaded CSV">
+
+                <button id="filterEtfBtn" onclick="filterETFs()">Filter ETFs</button>
+                <button id="downloadEtfBtn" onclick="downloadETFs()">Download CSV</button>
+            </div>
+
+            <table id="etfTable">
+                <thead>
+                    <tr>
+                        <th>Row</th>
+                        <th>Name</th>
+                        <th>Ticker</th>
+                        <th>Fund Asset Class Focus</th>
+                        <th>Fund Market Cap Focus</th>
+                        <th>Strategy</th>
+                        <th>Fund Industry Focus</th>
+                        <th>Fund Geographical Focus</th>
+                        <th>Maturity Band</th>
+                        <th>Expense Ratio</th>
+                        <th>Actively Managed?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Filtered ETF data will be populated here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
     
-    const filteredStocks = stocks.filter(stock => 
-        (companyName === "" || stock.company.toLowerCase().includes(companyName)) &&
-        (ticker === "" || stock.ticker.toLowerCase().includes(ticker)) &&
-        (exchange === "" || stock.exchange.toLowerCase().includes(exchange))
-    );
-
-    displayStocks(filteredStocks);
-}
-
-// Display Function for Stocks
-function displayStocks(data) {
-    const stocksTable = document.getElementById("stockTable").getElementsByTagName('tbody')[0];
-    stocksTable.innerHTML = "";
-
-    data.forEach((stock, index) => {
-        const row = stocksTable.insertRow();
-        row.insertCell(0).innerText = index + 1; // Row number
-        row.insertCell(1).innerText = stock.company;
-        row.insertCell(2).innerText = stock.ticker;
-        row.insertCell(3).innerText = stock.exchange;
-        row.insertCell(4).innerText = stock.price;
-        row.insertCell(5).innerText = stock.gicsSector; // Assuming this field exists
-        row.insertCell(6).innerText = stock.gicsIndustryGroup; // Assuming this field exists
-        row.insertCell(7).innerText = stock.gicsIndustry; // Assuming this field exists
-        row.insertCell(8).innerText = stock.gicsSubIndustry; // Assuming this field exists
-    });
-}
-
-// Filter Function for ETFs
-function filterETFs() {
-    const etfName = document.getElementById("etf-name").value.toLowerCase();
-    const etfTicker = document.getElementById("etf-ticker").value.toLowerCase();
-    
-    const filteredETFs = etfs.filter(etf => 
-        (etfName === "" || etf.name.toLowerCase().includes(etfName)) &&
-        (etfTicker === "" || etf.ticker.toLowerCase().includes(etfTicker))
-    );
-
-    renderETFs(filteredETFs);  // Use the render function for filtered ETFs
-}
-
-// Render Function for ETFs
-function renderETFs(data) {
-    const etfsTable = document.getElementById("etfTable").getElementsByTagName('tbody')[0];
-    etfsTable.innerHTML = ""; // Clear existing data
-
-    data.forEach((etf, index) => {
-        const row = etfsTable.insertRow();
-        row.insertCell(0).innerText = index + 1; // Row number
-        row.insertCell(1).innerText = etf.name;
-        row.insertCell(2).innerText = etf.ticker;
-        row.insertCell(3).innerText = etf.assetClass; // Update this according to your actual data field names
-        row.insertCell(4).innerText = etf.marketCap; // Update this according to your actual data field names
-        row.insertCell(5).innerText = etf.strategy;
-        row.insertCell(6).innerText = etf.industryFocus; // Update this according to your actual data field names
-        row.insertCell(7).innerText = etf.geographicalFocus; // Update this according to your actual data field names
-        row.insertCell(8).innerText = etf.maturityBand; // Update this according to your actual data field names
-        row.insertCell(9).innerText = etf.expenseRatio; 
-        row.insertCell(10).innerText = etf.activelyManaged ? "Yes" : "No"; // Assuming it's a boolean
-    });
-}
-
-// Download Function for Stocks
-function downloadStocks() {
-    const filename = document.getElementById("filename").value || "stocks_data.csv"; // Default filename if input is empty
-    const csvContent = "data:text/csv;charset=utf-8," + 
-        stocks.map(stock => 
-            `${stock.company},${stock.ticker},${stock.exchange},${stock.price},${stock.gicsSector},${stock.gicsIndustryGroup},${stock.gicsIndustry},${stock.gicsSubIndustry}`
-        ).join("\n");
-
-    const encodedUri = encodeURI(csvContent);
-    const link = document.createElement("a");
-    link.setAttribute("href", encodedUri);
-    link.setAttribute("download", filename);
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-}
-
-// Download Function for ETFs
-function downloadETFs() {
-    const filename = document.getElementById("etf-filename").value || "etfs_data.csv"; // Default filename if input is empty
-    const csvContent = "data:text/csv;charset=utf-8," + 
-        etfs.map(etf => 
-            `${etf.name},${etf.ticker},${etf.assetClass},${etf.marketCap},${etf.strategy},${etf.industryFocus},${etf.geographicalFocus},${etf.maturityBand},${etf.expenseRatio},${etf.activelyManaged ? "Yes" : "No"}`
-        ).join("\n");
-
-    const encodedUri = encodeURI(csvContent);
-    const link = document.createElement("a");
-    link.setAttribute("href", encodedUri);
-    link.setAttribute("download", filename);
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-}
-
-// Initialize Tab and Fetch Data
-document.addEventListener("DOMContentLoaded", function() {
-    document.getElementsByClassName("tablink")[0].click(); // Click on the first tab to open it
-    fetchData(); // Fetch data when the document is loaded
-});
+    <script src="script.js"></script> <!-- Link your JavaScript -->
+</body>
+</html>
