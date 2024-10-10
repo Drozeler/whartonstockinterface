@@ -14,8 +14,11 @@ async function fetchData() {
         const stocksData = await stocksResponse.json();
         const etfsData = await etfsResponse.json();
 
-        displayStocks(stocksData);
-        renderETFTable(etfsData);  // Use the render function for ETFs
+        stocks = stocksData; // Store stocks data
+        etfs = etfsData;     // Store ETFs data
+
+        displayStocks(stocks);  // Display all stocks initially
+        renderETFs(etfs);       // Use the render function for ETFs
     } catch (error) {
         console.error('There has been a problem with your fetch operation:', error);
     }
@@ -41,7 +44,7 @@ function filterStocks() {
     const ticker = document.getElementById("ticker").value.toLowerCase();
     const exchange = document.getElementById("exchange").value.toLowerCase();
     
-    const filteredStocks = stocks.filter(stock =>  // Use stocks array here
+    const filteredStocks = stocks.filter(stock => 
         (companyName === "" || stock.company.toLowerCase().includes(companyName)) &&
         (ticker === "" || stock.ticker.toLowerCase().includes(ticker)) &&
         (exchange === "" || stock.exchange.toLowerCase().includes(exchange))
@@ -52,15 +55,20 @@ function filterStocks() {
 
 // Display Function for Stocks
 function displayStocks(data) {
-    const stocksTable = document.getElementById("stocks-table");
+    const stocksTable = document.getElementById("stockTable").getElementsByTagName('tbody')[0];
     stocksTable.innerHTML = "";
 
-    data.forEach(stock => {
+    data.forEach((stock, index) => {
         const row = stocksTable.insertRow();
-        row.insertCell(0).innerText = stock.company;
-        row.insertCell(1).innerText = stock.ticker;
-        row.insertCell(2).innerText = stock.exchange;
-        row.insertCell(3).innerText = stock.price;
+        row.insertCell(0).innerText = index + 1; // Row number
+        row.insertCell(1).innerText = stock.company;
+        row.insertCell(2).innerText = stock.ticker;
+        row.insertCell(3).innerText = stock.exchange;
+        row.insertCell(4).innerText = stock.price;
+        row.insertCell(5).innerText = stock.gicsSector; // Assuming this field exists
+        row.insertCell(6).innerText = stock.gicsIndustryGroup; // Assuming this field exists
+        row.insertCell(7).innerText = stock.gicsIndustry; // Assuming this field exists
+        row.insertCell(8).innerText = stock.gicsSubIndustry; // Assuming this field exists
     });
 }
 
@@ -69,12 +77,12 @@ function filterETFs() {
     const etfName = document.getElementById("etf-name").value.toLowerCase();
     const etfTicker = document.getElementById("etf-ticker").value.toLowerCase();
     
-    const filteredETFs = etfs.filter(etf =>  // Use etfs array here
+    const filteredETFs = etfs.filter(etf => 
         (etfName === "" || etf.name.toLowerCase().includes(etfName)) &&
         (etfTicker === "" || etf.ticker.toLowerCase().includes(etfTicker))
     );
 
-    renderETFTable(filteredETFs);  // Use the new render function for filtered ETFs
+    renderETFs(filteredETFs);  // Use the render function for filtered ETFs
 }
 
 // Render Function for ETFs
@@ -102,7 +110,7 @@ function renderETFs(data) {
 function downloadStocks() {
     const csvContent = "data:text/csv;charset=utf-8," + 
         stocks.map(stock => 
-            `${stock.company},${stock.ticker},${stock.exchange},${stock.price}`
+            `${stock.company},${stock.ticker},${stock.exchange},${stock.price},${stock.gicsSector},${stock.gicsIndustryGroup},${stock.gicsIndustry},${stock.gicsSubIndustry}`
         ).join("\n");
 
     const encodedUri = encodeURI(csvContent);
@@ -118,7 +126,7 @@ function downloadStocks() {
 function downloadETFs() {
     const csvContent = "data:text/csv;charset=utf-8," + 
         etfs.map(etf => 
-            `${etf.name},${etf.ticker},${etf["Fund Asset Class Focus"]},${etf["Expense Ratio"]}` // Adjust based on your structure
+            `${etf.name},${etf.ticker},${etf.assetClass},${etf.marketCap},${etf.strategy},${etf.industryFocus},${etf.geographicalFocus},${etf.maturityBand},${etf.expenseRatio},${etf.activelyManaged ? "Yes" : "No"}`
         ).join("\n");
 
     const encodedUri = encodeURI(csvContent);
