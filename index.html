@@ -41,8 +41,8 @@
                 <label for="filename">Filename:</label>
                 <input type="text" id="filename" placeholder="Enter filename of your downloaded CSV">
 
-                <button id="filterBtn">Filter Stocks</button>
-                <button id="downloadBtn">Download CSV</button>
+                <button id="filterBtn" onclick="filterStocks()">Filter Stocks</button>
+                <button id="downloadBtn" onclick="downloadStocks()">Download CSV</button>
             </div>
 
             <table id="stockTable">
@@ -65,68 +65,67 @@
         </div>
 
         <!-- ETFs Filter Tab -->
-        <!-- ETFs Filter Tab -->
-<div id="etfsTab" class="tabcontent" style="display:none;">
-    <h1>ETF List Filter</h1>
-    <div class="filter-section">
-        <label for="etf-name">ETF Name:</label>
-        <input type="text" id="etf-name" placeholder="Enter ETF Name">
+        <div id="etfsTab" class="tabcontent" style="display:none;">
+            <h1>ETF List Filter</h1>
+            <div class="filter-section">
+                <label for="etf-name">ETF Name:</label>
+                <input type="text" id="etf-name" placeholder="Enter ETF Name">
 
-        <label for="etf-ticker">Ticker:</label>
-        <input type="text" id="etf-ticker" placeholder="Enter ETF Ticker">
+                <label for="etf-ticker">Ticker:</label>
+                <input type="text" id="etf-ticker" placeholder="Enter ETF Ticker">
 
-        <label for="etf-asset-class">Fund Asset Class Focus:</label>
-        <input type="text" id="etf-asset-class" placeholder="Enter Asset Class">
+                <label for="etf-asset-class">Fund Asset Class Focus:</label>
+                <input type="text" id="etf-asset-class" placeholder="Enter Asset Class">
 
-        <label for="etf-market-cap">Fund Market Cap Focus:</label>
-        <input type="text" id="etf-market-cap" placeholder="Enter Market Cap Focus">
+                <label for="etf-market-cap">Fund Market Cap Focus:</label>
+                <input type="text" id="etf-market-cap" placeholder="Enter Market Cap Focus">
 
-        <label for="etf-strategy">Strategy:</label>
-        <input type="text" id="etf-strategy" placeholder="Enter Strategy (e.g., Growth, Blend)">
+                <label for="etf-strategy">Strategy:</label>
+                <input type="text" id="etf-strategy" placeholder="Enter Strategy (e.g., Growth, Blend)">
 
-        <label for="etf-industry-focus">Fund Industry Focus:</label>
-        <input type="text" id="etf-industry-focus" placeholder="Enter Industry Focus">
+                <label for="etf-industry-focus">Fund Industry Focus:</label>
+                <input type="text" id="etf-industry-focus" placeholder="Enter Industry Focus">
 
-        <label for="etf-geographical-focus">Geographical Focus:</label>
-        <input type="text" id="etf-geographical-focus" placeholder="Enter Geographical Focus">
+                <label for="etf-geographical-focus">Geographical Focus:</label>
+                <input type="text" id="etf-geographical-focus" placeholder="Enter Geographical Focus">
 
-        <label for="etf-maturity-band">Maturity Band:</label>
-        <input type="text" id="etf-maturity-band" placeholder="Enter Maturity Band">
+                <label for="etf-maturity-band">Maturity Band:</label>
+                <input type="text" id="etf-maturity-band" placeholder="Enter Maturity Band">
 
-        <label for="etf-expense-ratio">Max Expense Ratio:</label>
-        <input type="number" id="etf-expense-ratio" step="0.01" placeholder="Enter Max Expense Ratio">
+                <label for="etf-expense-ratio">Max Expense Ratio:</label>
+                <input type="number" id="etf-expense-ratio" step="0.01" placeholder="Enter Max Expense Ratio">
 
-        <label for="etf-actively-managed">Actively Managed?</label>
-        <input type="text" id="etf-actively-managed" placeholder="Yes/No">
+                <label for="etf-actively-managed">Actively Managed?</label>
+                <input type="text" id="etf-actively-managed" placeholder="Yes/No">
 
-        <label for="etf-filename">Filename:</label>
-        <input type="text" id="etf-filename" placeholder="Enter filename of your downloaded CSV">
+                <label for="etf-filename">Filename:</label>
+                <input type="text" id="etf-filename" placeholder="Enter filename of your downloaded CSV">
 
-        <button id="filterEtfBtn">Filter ETFs</button>
-        <button id="downloadEtfBtn">Download CSV</button>
-    </div>
+                <button id="filterEtfBtn" onclick="filterETFs()">Filter ETFs</button>
+                <button id="downloadEtfBtn" onclick="downloadETFs()">Download CSV</button>
+            </div>
 
-    <table id="etfTable">
-        <thead>
-            <tr>
-                <th>Row</th>
-                <th>Name</th>
-                <th>Ticker</th>
-                <th>Fund Asset Class Focus</th>
-                <th>Fund Market Cap Focus</th>
-                <th>Strategy</th>
-                <th>Fund Industry Focus</th>
-                <th>Fund Geographical Focus</th>
-                <th>Maturity Band</th>
-                <th>Expense Ratio</th>
-                <th>Actively Managed?</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Filtered ETF data will be populated here -->
-        </tbody>
-    </table>
-</div>
+            <table id="etfTable">
+                <thead>
+                    <tr>
+                        <th>Row</th>
+                        <th>Name</th>
+                        <th>Ticker</th>
+                        <th>Fund Asset Class Focus</th>
+                        <th>Fund Market Cap Focus</th>
+                        <th>Strategy</th>
+                        <th>Fund Industry Focus</th>
+                        <th>Fund Geographical Focus</th>
+                        <th>Maturity Band</th>
+                        <th>Expense Ratio</th>
+                        <th>Actively Managed?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Filtered ETF data will be populated here -->
+                </tbody>
+            </table>
+        </div>
     </div>
     
     <script src="script.js"></script> <!-- Link your JavaScript -->
